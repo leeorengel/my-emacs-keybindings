@@ -10,6 +10,7 @@ Handy keybindings to help users learning emacs coming from intelliJ IDEA or the 
     - [Basic Motion](#basic-motion)
     - [Jumping Around](#jumping-around)
   - [Across buffers](#across-buffers)
+- [Selection/Copy/Paste](#selection/copy/paste)
 - [Editing](#editing)
 - [File Management](#file-management)
 - [Directory Management](#directory-management)
@@ -43,8 +44,8 @@ Keybinding                                | Description                         
 <kbd>C-n</kbd>                            | move cursor to next line                 | <kbd>C-n</kbd>         |
 <kbd>M-b</kbd>                            | move cursor to previous word             |                        |
 <kbd>M-f</kbd>                            | move cursor to next word                 |                        |
-<kbd>C-M-b</kbd>                          | move cursor to next expression           |                        |
-<kbd>C-M-f</kbd>                          | move cursor to next expression           |                        |
+<kbd>C-M-b</kbd>                          | move cursor to next s-expression         |                        |
+<kbd>C-M-f</kbd>                          | move cursor to next s-expression         |                        |
 <kbd>C-a</kbd>                            | Go to beginning of line                  | <kbd>C-a</kbd>         |
 <kbd>C-e</kbd>                            | Go to end of line                        | <kbd>C-e</kbd>         |
 
@@ -73,6 +74,17 @@ Keybinding                                | Description                     | No
 <kbd>C-x [right arrow]</kbd>              | Next buffer/file                |
 <kbd>C-TAB</kbd>                          | Cycle buffers                   | via global keybinding `(global-set-key (kbd "<C-tab>") 'bury-buffer)`
 
+## Selection/Copy/Paste
+
+Commands for selecting, cutting, copying and pasting regions of text.
+
+Keybinding                                | Description                                         | Notes
+------------------------------------------|-----------------------------------------------------|-------------------------------------
+<kbd>C-SPACE</kbd>                        | Mark the beginning of a selection                   |
+<kbd>C-x C-x</kbd>                        | Toggle between beginning and ending of selection    |
+<kbd>M-w</kbd>                            | Copy selection                                      |
+<kbd>C-w</kbd>                            | Cut and copy selection                              |
+
 ## Editing
 
 Keybindings for making changes within a buffer.
@@ -93,6 +105,7 @@ Keybinding                                | Description                     | No
 <kbd></kbd>               |        |
 
 
+
 ## File Management
 
 Keybinding                                | Description                     | Notes
@@ -105,11 +118,11 @@ Keybinding                                | Description                     | No
 ------------------------------------------|---------------------------------|-------------------------------------
 
 ## Version Control
-
 Keybinding                                | Description                     | Notes
 ------------------------------------------|---------------------------------|-------------------------------------
 
 
+
 ## Credits
 
-- [Bozhidar Batsoz's favourite keybindings](http://stackoverflow.com/a/3125243/3166303)
+- [Bozhidar Batsov's favourite keybindings](http://stackoverflow.com/a/3125243/3166303)
