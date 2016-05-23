@@ -1,18 +1,23 @@
 # Emacs Keybindings with IntelliJ IDEA Analogs
-Handy key maps to help users learning emacs coming from intelliJ IDEA
+
+Handy keybindings to help users learning emacs coming from intelliJ IDEA or the Jetbrains family of IDE's.
 
 **Table of Contents**
 
 - [Minibuffer](#minibuffer)
 - [Navigation](#navigation)
   - [Within buffer](#within-buffer)
+    - [Basic Motion](#basic-motion)
+    - [Jumping Around](#jumping-around)
   - [Across buffers](#across-buffers)
 - [Editing](#editing)
 - [File Management](#file-management)
 - [Directory Management](#directory-management)
--
+- [Credits](#credits)
 
 ## Minibuffer
+
+Keybindings for use inside the minibuffer.
 
 Keybinding                                | Description                                           | Notes
 ------------------------------------------|-------------------------------------------------------|------------------------------------
@@ -28,20 +33,37 @@ Keybinding                                | Description                         
 
 ### Within a buffer
 
-Keybinding                                | Description                              | Notes
-------------------------------------------|------------------------------------------|--------------------------
-<kbd>C-u C-SPACE</kbd>                    | Previous cursor position within buffer   |
-<kbd>C-u C-@</kbd>                        | Next cursor position within buffer       |
-<kbd>M-<</kbd>                            | Go to beginning of buffer                |
-<kbd>M-></kbd>                            | Go to end of buffer                      |
-<kbd>M-g g</kbd>                          | Go to line number                        |
+#### Basic Motion
+
+Keybindings for very basic cursor movement.
+
+Keybinding                                | Description                              | IntelliJ IDEA          | Notes
+------------------------------------------|------------------------------------------|------------------------|------------------------
+<kbd>C-p</kbd>                            | move cursor to previous line             | <kbd>C-p</kbd>         |
+<kbd>C-n</kbd>                            | Previous cursor position within buffer   | <kbd>C-n</kbd>         |
+<kbd>C-M-b</kbd>                          | Previous cursor position within buffer   | <kbd>Command-[</kbd>   |
+<kbd>C-M-f</kbd>                          | Previous cursor position within buffer   | <kbd>Command-[</kbd>   |
+<kbd>C-a</kbd>                            | Go to beginning of line                  | <kbd>C-a</kbd>         |
+<kbd>C-e</kbd>                            | Go to end of line                        | <kbd>C-e</kbd>         |
+
+#### Jumping Around
+
+Keybindings for jumping around inside a single buffer.
+
+Keybinding                                | Description                              | IntelliJ IDEA          | Notes
+------------------------------------------|------------------------------------------|------------------------|------------------------
+<kbd>C-u C-SPACE</kbd>                    | Previous cursor position within buffer   | <kbd>Command-[</kbd>   | In IntelliJ, this is a general `back` cursor location including across files
+<kbd>C-u C-@</kbd>                        | Next cursor position within buffer       | <kbd>Command-]</kbd>   | In IntelliJ, this is a general `forward` cursor location including across files
+<kbd>M-<</kbd>                            | Go to beginning of buffer                | <kbd>Command-[</kbd>   | In IntelliJ, this is a general `back` cursor location including across files
+<kbd>M-></kbd>                            | Go to end of buffer                      | <kbd>Command-]</kbd>   | In IntelliJ, this is a general `forward` cursor location including across files
+<kbd>M-g g</kbd>                          | Go to line number                        | <kbd>Command-l</kbd>   |
 <kbd>C-l</kbd>                            | Center screen at cursor/point            |
 <kbd>M-v</kbd>                            | Scroll to previous screen                |
 <kbd>C-v</kbd>                            | Scroll to next screen                    |
 
-
-
 ### Across buffers
+
+Keybindings for moving in between open buffers.
 
 Keybinding                                | Description                     | Notes
 ------------------------------------------|---------------------------------|-------------------------------------
@@ -49,9 +71,43 @@ Keybinding                                | Description                     | No
 <kbd>C-x [right arrow]</kbd>              | Next buffer/file                |
 <kbd>C-TAB</kbd>                          | Cycle buffers                   | via global keybinding `(global-set-key (kbd "<C-tab>") 'bury-buffer)`
 
-
 ## Editing
 
+Keybindings for making changes within a buffer.
 
+Keybinding                                | Description                     | Notes
+------------------------------------------|---------------------------------|-------------------------------------
+<kbd></kbd>               |        |
+<kbd></kbd>               |        |
+<kbd></kbd>               |        |
+<kbd></kbd>               |        |
+<kbd></kbd>               |        |
+<kbd></kbd>               |        |
+<kbd></kbd>               |        |
+<kbd></kbd>               |        |
+<kbd></kbd>               |        |
+<kbd></kbd>               |        |
+<kbd></kbd>               |        |
+<kbd></kbd>               |        |
+
+
+## File Management
+
+Keybinding                                | Description                     | Notes
+------------------------------------------|---------------------------------|-------------------------------------
+
+
+## Directory Management
+
+Keybinding                                | Description                     | Notes
+------------------------------------------|---------------------------------|-------------------------------------
 
 ## Version Control
+
+Keybinding                                | Description                     | Notes
+------------------------------------------|---------------------------------|-------------------------------------
+
+
+## Credits
+
+- [Bozhidar Batsoz's favourite keybindings](http://stackoverflow.com/a/3125243/3166303)
