@@ -40,9 +40,11 @@ Keybindings for very basic cursor movement.
 Keybinding                                | Description                              | IntelliJ IDEA          | Notes
 ------------------------------------------|------------------------------------------|------------------------|------------------------
 <kbd>C-p</kbd>                            | move cursor to previous line             | <kbd>C-p</kbd>         |
-<kbd>C-n</kbd>                            | Previous cursor position within buffer   | <kbd>C-n</kbd>         |
-<kbd>C-M-b</kbd>                          | Previous cursor position within buffer   | <kbd>Command-[</kbd>   |
-<kbd>C-M-f</kbd>                          | Previous cursor position within buffer   | <kbd>Command-[</kbd>   |
+<kbd>C-n</kbd>                            | move cursor to next line                 | <kbd>C-n</kbd>         |
+<kbd>M-b</kbd>                            | move cursor to previous word             |                        |
+<kbd>M-f</kbd>                            | move cursor to next word                 |                        |
+<kbd>C-M-b</kbd>                          | move cursor to next expression           |                        |
+<kbd>C-M-f</kbd>                          | move cursor to next expression           |                        |
 <kbd>C-a</kbd>                            | Go to beginning of line                  | <kbd>C-a</kbd>         |
 <kbd>C-e</kbd>                            | Go to end of line                        | <kbd>C-e</kbd>         |
 
