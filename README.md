@@ -4,7 +4,6 @@ Handy keybindings to help users learning emacs coming from intelliJ IDEA or the 
 
 **Table of Contents**
 
-- [Minibuffer](#minibuffer)
 - [Navigation](#navigation)
   - [Within buffer](#within-buffer)
     - [Basic Motion](#basic-motion)
@@ -14,6 +13,7 @@ Handy keybindings to help users learning emacs coming from intelliJ IDEA or the 
 - [Editing](#editing)
 - [File Management](#file-management)
 - [Directory Management](#directory-management)
+- [Minibuffer](#minibuffer)
 - [Credits](#credits)
 
 ## Minibuffer
@@ -101,14 +101,36 @@ Keybinding                                | Description                         
 
 ## File Management
 
-Keybinding                                | Description                     | Notes
-------------------------------------------|---------------------------------|-------------------------------------
+Keybinding                                | Description                         | Notes
+------------------------------------------|-------------------------------------|-------------------------------------
+<kbd>C-x b <name> RET</kbd>               | Create a new/open recent buffer     |
+<kbd>C-x 4 b <name> RET</kbd>             | Create a new buffer in new window   |
+<kbd>C-x C-f</kbd>                        | Open a file                         |
+<kbd>C-x k RET</kbd>                      | Close buffer                        |
+<kbd>C-x C-s</kbd>                        | Save buffer                         |
+<kbd>C-x C-w <name> RET</kbd>             | Save buffer to file                 |
+<kbd>C-c D</kbd>                          | Delete current buffer & file        | `predule` keybinding
+<kbd>C-c r</kbd>                          | Rename current buffer & file        | `predule` keybinding
+<kbd>M-x <mode-name></kbd>                | Enable mode in file                 |
 
 
 ## Directory Management
 
 Keybinding                                | Description                     | Notes
-------------------------------------------|---------------------------------|-------------------------------------
+------------------------------------------|---------------------------------------------------|-------------------------------------
+<kbd><</kbd>                              | Previous directory in listing (skips files)       |
+<kbd>></kbd>                              | Next directory in listing (skips files)           |
+<kbd>f</kbd>                              | Open file                                         |
+<kbd>v</kbd>                              | View file                                         |
+<kbd>^</kbd>                              | Go up to parent directory                         |
+<kbd>d</kbd>                              | Mark file for deletion                            |
+<kbd>q</kbd>                              | Quit                                              |
+<kbd>+</kbd>                              | Create directory                                  |
+<kbd>=</kbd>                              | Compare file at point with previously marked file |
+<kbd>m</kbd>                              | Mark a file for action                            |
+<kbd>u</kbd>                              | Unmark a file for action                          |
+<kbd>t</kbd>                              | Toggle marking                                    |
+
 
 ## Version Control
 Keybinding                                | Description                     | Notes
