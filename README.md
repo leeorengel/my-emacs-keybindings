@@ -1,6 +1,10 @@
 # Emacs Keybindings with IntelliJ IDEA Analogs
 
-Handy keybindings to help users learning emacs coming from intelliJ IDEA or the Jetbrains family of IDE's.
+Essential keybindings to help users learning emacs coming from intelliJ IDEA or the Jetbrains family of IDE's.
+
+This page assumes you are using the prelude distribution of emacs.
+
+This page has been organized roughly in order of importance in terms of the minimum keybindings you need to know to get going in emacs. Subsequent sections include more advanced groupings of keybindings.
 
 **Table of Contents**
 
@@ -14,7 +18,14 @@ Handy keybindings to help users learning emacs coming from intelliJ IDEA or the 
 - [Searching/Replacing](#searchingreplacing)
 - [File Management](#file-management)
 - [Directory Management](#directory-management)
+- [Window Management](#window-management)
+- [Frame Management](#frame-management)
+- [Projectile](#projectile)
+- [Coding](#coding)
+- [Clojure/CIDER](#clojurecider)
 - [Minibuffer](#minibuffer)
+- [Markdown](#markdown)
+- [Miscellaneous](#miscellaneous)
 - [Credits](#credits)
 
 ## Minibuffer
@@ -144,11 +155,42 @@ Keybinding                                | Description                         
 <kbd>t</kbd>                              | Toggle marking                                    |
 
 
+## Window Management
+
+Keybinding                                | Description                     | Notes
+------------------------------------------|---------------------------------|-------------------------------------
+
+
+## Frame Management
+
+Keybinding                                | Description                     | Notes
+------------------------------------------|---------------------------------|-------------------------------------
+
+
+## Projectile
+
+Keybinding                                | Description                     | Notes
+------------------------------------------|---------------------------------|-------------------------------------
+
+
+## Coding
+
+Keybinding                                | Description                     | Notes
+------------------------------------------|---------------------------------|-------------------------------------
+
+
+## Clojure/CIDER
+
+Keybinding                                | Description                     | Notes
+------------------------------------------|---------------------------------|-------------------------------------
+
+
 ## Version Control
 Keybinding                                | Description                     | Notes
 ------------------------------------------|---------------------------------|-------------------------------------
 
 
+## Miscellaneous
 
 ## Credits
 
