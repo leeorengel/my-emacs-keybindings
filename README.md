@@ -10,7 +10,7 @@ Handy keybindings to help users learning emacs coming from intelliJ IDEA or the 
     - [Basic Motion](#basic-motion)
     - [Jumping Around](#jumping-around)
   - [Across buffers](#across-buffers)
-- [Selection/Copy/Paste](#selection/copy/paste)
+- [Selection/Copy/Paste](#selectioncopypaste)
 - [Editing](#editing)
 - [File Management](#file-management)
 - [Directory Management](#directory-management)
@@ -89,22 +89,15 @@ Keybinding                                | Description                         
 
 Keybindings for making changes within a buffer.
 
-Keybinding                                | Description                     | Notes
-------------------------------------------|---------------------------------|-------------------------------------
-<kbd></kbd>               |        |
-<kbd></kbd>               |        |
-<kbd></kbd>               |        |
-<kbd></kbd>               |        |
-<kbd></kbd>               |        |
-<kbd></kbd>               |        |
-<kbd></kbd>               |        |
-<kbd></kbd>               |        |
-<kbd></kbd>               |        |
-<kbd></kbd>               |        |
-<kbd></kbd>               |        |
-<kbd></kbd>               |        |
-
-
+Keybinding                                | Description                             | IntelliJ IDEA        | Notes
+------------------------------------------|-----------------------------------------|----------------------|--------------
+<kbd>C-/</kbd>                            | Undo                                    | <kbd>Command-Z</kbd> |
+<kbd>C-Shift-Del</kbd>                    | Delete current line                     |                      |
+<kbd>C-k</kbd>                            | Delete rest of line from cursor         |
+<kbd>M-0 C-k</kbd>                        | Delete from cursor to beginning of line |
+<kbd>M-Del</kbd>                          | Delete previous word                    |
+<kbd>M-d</kbd>                            | Delete next word                        |
+<kbd>C-c d</kbd>                          | Duplicate current line                  |
 
 ## File Management
 
