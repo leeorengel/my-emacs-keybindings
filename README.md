@@ -11,6 +11,7 @@ Handy keybindings to help users learning emacs coming from intelliJ IDEA or the 
   - [Across buffers](#across-buffers)
 - [Selection/Copy/Paste](#selectioncopypaste)
 - [Editing](#editing)
+- [Searching/Replacing](#searchingreplacing)
 - [File Management](#file-management)
 - [Directory Management](#directory-management)
 - [Minibuffer](#minibuffer)
@@ -99,6 +100,16 @@ Keybinding                                | Description                         
 <kbd>M-d</kbd>                            | Delete next word                        |
 <kbd>C-c d</kbd>                          | Duplicate current line                  |
 
+## Searching/Replacing
+
+Keybinding                                | Description                                 | IntelliJ IDEA                                  | Notes
+------------------------------------------|---------------------------------------------|------------------------------------------------|---------------
+<kbd>C-s</kbd>                            | Find next occurrence in buffer              | <kbd>Command F</kbd>                           |
+<kbd>C-r</kbd>                            | Find previous occurrence in buffer          | <kbd>Command Shift F</kbd>                     |
+<kbd>C-M-s</kbd>                          | Find next occurrence using regex in buffer  | <kbd>Command F</kbd> with regex checkbox       |
+<kbd>C-M-r</kbd>                          | Find previous occurrence in buffer          | <kbd>Command Shift F</kbd> with regex checkbox |
+
+
 ## File Management
 
 Keybinding                                | Description                         | Notes
@@ -116,8 +127,9 @@ Keybinding                                | Description                         
 
 ## Directory Management
 
-Keybinding                                | Description                     | Notes
+Keybinding                                | Description                                       | Notes
 ------------------------------------------|---------------------------------------------------|-------------------------------------
+<kbd>C-x d</kbd>                          | Open Dired                                        |
 <kbd><</kbd>                              | Previous directory in listing (skips files)       |
 <kbd>></kbd>                              | Next directory in listing (skips files)           |
 <kbd>f</kbd>                              | Open file                                         |
