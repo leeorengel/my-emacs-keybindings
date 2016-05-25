@@ -164,44 +164,44 @@ Keybinding                                | Description                         
 
 ## Window Management
 
-Keybinding                                     | Description                     | Notes
------------------------------------------------|---------------------------------|-------------------------------------
-close all other windows except current window  | C-x 1                           |
-Split current window horizontally              | C-x 2                           |
-Split current window vertically                | C-x 3                           |
-Close current window                           | C-x 0                           |
-Switch to next window                          | C-x o                           |
-Switch to previous window                      | M-- C-x o                       |
-Jump ahead # of windows                        | M-<number> C-x o                |
-Balance windows                                | C-x +                           |
-scroll backward other window                   | C-M-Shift-v                     |
-scroll forward other window                    | C-M-v                           |
+Keybinding                    | Description                                    | Notes
+------------------------------|------------------------------------------------|-----------------------------
+<kbd>C-x 1</kbd>              | Close all other windows except current window  |                            |
+<kbd>C-x 2</kbd>              | Split current window horizontally              |                            |
+<kbd>C-x 3</kbd>              | Split current window vertically                |                            |
+<kbd>C-x 0</kbd>              | Close current window                           |                            |
+<kbd>C-x o</kbd>              | Switch to next window                          |                            |
+<kbd>M-- C-x o</kbd>          | Switch to previous window                      |                            |
+<kbd>M-<number> C-x o</kbd>   | Jump ahead # of windows                        |                            |
+<kbd>C-x +</kbd>              | Balance windows                                |                            |
+<kbd>C-M-Shift-v</kbd>        | Scroll backward other window                   |                            |
+<kbd>C-M-v</kbd>              | Scroll forward other window                    |                            |
 
 ## Frame Management
 
-Keybinding                                   | Description                     | Notes
----------------------------------------------|---------------------------------|-------------------------------------
-close all other frames except current frame  | C-x 5 1                         |
-Split current frame horizontally             | C-x 5 2                         |
-Close current frame                          | C-x 5 0                         |
-Switch to next frame                         | C-x 5 o                         |
+Keybinding             | Description                                  | Notes
+-----------------------|----------------------------------------------|-----------------------|
+<kbd>C-x 5 1</kbd>     | Close all other frames except current frame  |                       |
+<kbd>C-x 5 2</kbd>     | Split current frame horizontally             |                       |
+<kbd>C-x 5 0</kbd>     | Close current frame                          |                       |
+<kbd>C-x 5 o</kbd>     | Switch to next frame                         |                       |
 
 ## Projectile
 
 Project navigation. An alternate prefix is Command-P.
 
-Keybinding                                     | Description                     | Notes
------------------------------------------------|---------------------------------|-------------------------------------
-Open file in project with completion           | C-c p f                         |
-Open file in ANY project with completion       | C-c p F                         |
-search all files in project using regex        | C-c p s g                       |
-find/replace all files in project              | C-c p s g                       |
-show all open project buffers                  | C-c p b                         |
-Open root project in dired                     | C-c p D                         |
-kill all buffers in project                    | C-c p k                         |
-show all recent opened files in project        | C-c p e                         |
-run shell on root of project as current dir    | C-c p !                         |
-show all known projects                        | C-c p p                         |
+Keybinding              | Description                                    | Notes
+------------------------|------------------------------------------------|-----------------------
+<kbd>C-c p f</kbd>      | Open file in project with completion           |                      |
+<kbd>C-c p F</kbd>      | Open file in ANY project with completion       |                      |
+<kbd>C-c p s g</kbd>    | Search all files in project using regex        |                      |
+<kbd>C-c p r</kbd>      | Find/replace all files in project              |                      |
+<kbd>C-c p b</kbd>      | Show all open project buffers                  |                      |
+<kbd>C-c p D</kbd>      | Open root project in dired                     |                      |
+<kbd>C-c p k</kbd>      | Kill all buffers in project                    |                      |
+<kbd>C-c p e</kbd>      | Show all recent opened files in project        |                      |
+<kbd>C-c p !</kbd>      | Run shell on root of project as current dir    |                      |
+<kbd>C-c p p</kbd>      | Show all known projects                        |                      |
 
 ## Coding
 
