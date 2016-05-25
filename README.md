@@ -14,6 +14,7 @@ This page has been organized roughly in order of importance in terms of the mini
     - [Jumping Around](#jumping-around)
   - [Across buffers](#across-buffers)
 - [Selection/Copy/Paste](#selectioncopypaste)
+  - [Advanced](#selectionadvanced)
 - [Editing](#editing)
 - [Searching/Replacing](#searchingreplacing)
 - [File Management](#file-management)
@@ -97,6 +98,12 @@ Keybinding                                | Description                         
 <kbd>M-w</kbd>                            | Copy selection                                      |
 <kbd>C-w</kbd>                            | Cut and copy selection                              |
 
+### Selection Advanced
+
+Keybinding                                | Description                                         | Notes
+------------------------------------------|-----------------------------------------------------|-------------------------------------
+
+
 ## Editing
 
 Keybindings for making changes within a buffer.
@@ -157,21 +164,44 @@ Keybinding                                | Description                         
 
 ## Window Management
 
-Keybinding                                | Description                     | Notes
-------------------------------------------|---------------------------------|-------------------------------------
-
+Keybinding                                     | Description                     | Notes
+-----------------------------------------------|---------------------------------|-------------------------------------
+close all other windows except current window  | C-x 1                           |
+Split current window horizontally              | C-x 2                           |
+Split current window vertically                | C-x 3                           |
+Close current window                           | C-x 0                           |
+Switch to next window                          | C-x o                           |
+Switch to previous window                      | M-- C-x o                       |
+Jump ahead # of windows                        | M-<number> C-x o                |
+Balance windows                                | C-x +                           |
+scroll backward other window                   | C-M-Shift-v                     |
+scroll forward other window                    | C-M-v                           |
 
 ## Frame Management
 
-Keybinding                                | Description                     | Notes
-------------------------------------------|---------------------------------|-------------------------------------
-
+Keybinding                                   | Description                     | Notes
+---------------------------------------------|---------------------------------|-------------------------------------
+close all other frames except current frame  | C-x 5 1                         |
+Split current frame horizontally             | C-x 5 2                         |
+Close current frame                          | C-x 5 0                         |
+Switch to next frame                         | C-x 5 o                         |
 
 ## Projectile
 
-Keybinding                                | Description                     | Notes
-------------------------------------------|---------------------------------|-------------------------------------
+Project navigation. An alternate prefix is Command-P.
 
+Keybinding                                     | Description                     | Notes
+-----------------------------------------------|---------------------------------|-------------------------------------
+Open file in project with completion           | C-c p f                         |
+Open file in ANY project with completion       | C-c p F                         |
+search all files in project using regex        | C-c p s g                       |
+find/replace all files in project              | C-c p s g                       |
+show all open project buffers                  | C-c p b                         |
+Open root project in dired                     | C-c p D                         |
+kill all buffers in project                    | C-c p k                         |
+show all recent opened files in project        | C-c p e                         |
+run shell on root of project as current dir    | C-c p !                         |
+show all known projects                        | C-c p p                         |
 
 ## Coding
 
