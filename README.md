@@ -173,7 +173,7 @@ Keybinding                                | Description                         
 <kbd>m</kbd>                              | Mark a file for action                            |
 <kbd>u</kbd>                              | Unmark a file for action                          |
 <kbd>t</kbd>                              | Toggle marking                                    |
-<kbd>! \<shell command string\></kbd      | Run shell command on file at cursor               |
+<kbd>! \<shell command string\></kbd>     | Run shell command on file at cursor               |
 
 
 ## Window Management
