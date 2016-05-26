@@ -205,22 +205,52 @@ Keybinding              | Description                                    | Notes
 
 ## Coding
 
-Keybinding                                | Description                     | Notes
-------------------------------------------|---------------------------------|-------------------------------------
-
+Keybinding                                | Description                                 | IntelliJ IDEA        |  Notes
+------------------------------------------|---------------------------------------------|----------------------|-------------------------
+<kbd>Command ;</kbd>                      | Toggle comment lines                        | <kbd>Command /</kbd> | (via global keybinding to custom function)
+<kbd>C-c p c</kbd>                        | Run compile on project                      |                      |
+<kbd>C-c p P</kbd>                        | Run tests on project                        |                      |
+<kbd>C-c p t</kbd>                        | Toggle between implementation and test file |                      |
 
 ## Clojure/CIDER
 
-Keybinding                                | Description                     | Notes
-------------------------------------------|---------------------------------|-------------------------------------
-
+Keybinding                                | Description                                | Notes
+------------------------------------------|--------------------------------------------|-------------------------------------
+<kbd>C-c M-j</kbd>                        | Open nREPL in a clojure project            |
+<kbd>,</kbd>                              | Once repl is open, get command keybindings |
+<kbd>C-c C-t n</kbd>                      | Run tests in current ns                    |
+<kbd>C-c C-t t</kbd>                      | Run a test at the cursor position          |
+<kbd>C-u C-M-x</kbd>                      | Start debug session                        |
+<kbd>M-x clojure-cheatsheet</kbd>         | Clojure command cheatsheet                 |
 
 ## Version Control
-Keybinding                                | Description                     | Notes
-------------------------------------------|---------------------------------|-------------------------------------
 
+Keybinding                                  | Description                            | IntelliJ IDEA            |  Notes
+--------------------------------------------|----------------------------------------|--------------------------|--------------
+<kbd>C-x v d</kbd>                          | See current git status/changed files   | Open/switch to VCS tab   |
+<kbd>C-x v v, write message, C-c C-c</kbd>  | Commit file                            |                          |
+<kbd>C-x v i</kbd>                          | Add/stage file                         |                          |
+<kbd>C-x v g</kbd>                          | Annotate/blame on current buffer       |                          |
+<kbd>C-x v +</kbd>                          | Pull latest changes                    |                          |
+<kbd>C-x v =</kbd>                          | Version diff                           | <kbd>Command D</kbd>     |
+<kbd>C-x v u</kbd>                          | Revert changes                         |                          |
+<kbd>C-x v l</kbd>                          | Show log                               |                          |
 
 ## Miscellaneous
+
+Keybinding                                   | Description                             | IntelliJ IDEA              | Notes
+---------------------------------------------|-----------------------------------------|----------------------------|--------------------------------------
+<kbd>M-x ediff</kbd>                         | Diff Files                              | <kbd>Command D</kbd>       |
+<kbd>C-x v =</kbd>                           | View diff of current file               |                            |
+<kbd>M-x procd</kbd>                         | View processes (like top)               |                            | OR <kbd>C-x</kbd> p (with global keybinding)
+<kbd>C-x M</kbd>                             | Open a shell/terminal (eshell in emacs) |                            |
+<kbd>C-x d</kbd>                             | File browser (dired)                    |                            |
+<kbd>C-c g</kbd>                             | Search in Google                        |                            | (via `prelude` with global keybinding)
+<kbd>C-c u</kbd>                             | View URL                                |                            |
+<kbd>C-c t</kbd>                             | Open terminal buffer                    | via Terminal tab           | (via `prelude` with global keybinding)
+<kbd>C-x C-f /remotehost:filename RET</kbd>  | TRAMP remote file editing               |                            | Open a directory to get a Dired buffer!
+<kbd>M-$</kbd>                               | Check and fix spelling at cursor        |                            |
+
 
 ## Credits
 
