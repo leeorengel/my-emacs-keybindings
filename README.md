@@ -101,7 +101,14 @@ Keybinding                                | Description                         
 <kbd>M-w</kbd>                            | Copy selection                                      |
 <kbd>C-w</kbd>                            | Cut and copy selection                              |
 
-### Selection Advanced
+### Selection advanced
+
+Keybinding                              | Description                | Notes
+----------------------------------------|----------------------------|-----------------------------
+<kbd>C-M-@</kbd>                        | Select s-expression        |
+<kbd>C-M-h</kbd>                        | Select function            |
+
+
 
 Keybinding                                | Description                                         | Notes
 ------------------------------------------|-----------------------------------------------------|-------------------------------------
