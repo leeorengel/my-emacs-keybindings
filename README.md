@@ -6,6 +6,8 @@ This page assumes you are using the prelude distribution of emacs.
 
 This page has been organized roughly in order of importance in terms of the minimum keybindings you need to know to get going in emacs. Subsequent sections include more advanced groupings of keybindings.
 
+This assumes you are on a Mac and using OS X 10.5+ Keymaps in IntelliJ.
+
 **Table of Contents**
 
 - [Navigation](#navigation)
@@ -118,16 +120,16 @@ Keybinding                                | Description                         
 
 Keybindings for making changes within a buffer.
 
-Keybinding                                | Description                             | IntelliJ IDEA        | Notes
-------------------------------------------|-----------------------------------------|----------------------|--------------
-<kbd>C-/</kbd>                            | Undo                                    | <kbd>Command-Z</kbd> |
-<kbd>C-Shift-Del</kbd>                    | Delete current line                     |                      |
-<kbd>C-k</kbd>                            | Delete rest of line from cursor         |
-<kbd>M-0 C-k</kbd>                        | Delete from cursor to beginning of line |
-<kbd>M-Del</kbd>                          | Delete previous word                    |
-<kbd>M-d</kbd>                            | Delete next word                        |
-<kbd>C-c d</kbd>                          | Duplicate current line                  |
-<kbd>C-x C-t</kbd>                        | Swap line with line above               |
+Keybinding                                     | Description                             | IntelliJ IDEA        | Notes
+-----------------------------------------------|-----------------------------------------|----------------------|--------------
+<kbd>C-/</kbd>                                 | Undo                                    | <kbd>Command-Z</kbd> |
+<kbd>C-Shift-Del</kbd> OR <kbd>Command K</kbd> | Delete current line                     |                      | <kbd>Command K</kbd> via `prelude` keybinding
+<kbd>C-k</kbd>                                 | Delete rest of line from cursor         |                      |
+<kbd>M-0 C-k</kbd>                             | Delete from cursor to beginning of line |                      |
+<kbd>M-Del</kbd>                               | Delete previous word                    |                      |
+<kbd>M-d</kbd>                                 | Delete next word                        |                      |
+<kbd>C-c d</kbd>                               | Duplicate current line                  |                      |
+<kbd>C-x C-t</kbd>                             | Swap line with line above               |                      |
 
 ## Searching/Replacing
 
@@ -171,6 +173,7 @@ Keybinding                                | Description                         
 <kbd>m</kbd>                              | Mark a file for action                            |
 <kbd>u</kbd>                              | Unmark a file for action                          |
 <kbd>t</kbd>                              | Toggle marking                                    |
+<kbd>! \<shell command string\></kbd      | Run shell command on file at cursor               |
 
 
 ## Window Management
@@ -234,6 +237,20 @@ Keybinding                                | Description                         
 <kbd>C-u C-M-x</kbd>                      | Start debug session                        |
 <kbd>M-x clojure-cheatsheet</kbd>         | Clojure command cheatsheet                 |
 
+## Jump to Definition (Dumb jump)
+
+Keybinding                                | Description                                | Notes
+------------------------------------------|--------------------------------------------|-------------------------------------
+<kbd></kbd>                         |             |
+<kbd></kbd>                         |             |
+
+## Project Explorer (NeoTree)
+
+Keybinding                                | Description                                | Notes
+------------------------------------------|--------------------------------------------|-------------------------------------
+<kbd></kbd>                         |             |
+<kbd></kbd>                         |             |
+
 ## Version Control
 
 Keybinding                                  | Description                            | IntelliJ IDEA            |  Notes
@@ -296,3 +313,4 @@ Keybinding                                   | Description                      
 ## Credits
 
 - [Bozhidar Batsov's favourite keybindings](http://stackoverflow.com/a/3125243/3166303)
+- [Awesome Emacs](https://github.com/emacs-tw/awesome-emacs)
