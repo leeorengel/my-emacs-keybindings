@@ -284,11 +284,13 @@ Keybinding                                   | Description                      
 <kbd>M-x procd</kbd>                         | View processes (like top)               |                            | OR <kbd>C-x</kbd> p (with global keybinding)
 <kbd>C-x M</kbd>                             | Open a shell/terminal (eshell in emacs) |                            |
 <kbd>C-x d</kbd>                             | File browser (dired)                    |                            |
-<kbd>C-c g</kbd>                             | Search in Google                        |                            | (via `prelude` with global keybinding)
+<kbd>C-c g</kbd>                             | Search in Google                        |                            | (via `prelude` global keybinding)
 <kbd>C-c u</kbd>                             | View URL                                |                            |
-<kbd>C-c t</kbd>                             | Open terminal buffer                    | via Terminal tab           | (via `prelude` with global keybinding)
+<kbd>C-c t</kbd>                             | Open terminal buffer                    | via Terminal tab           | (via `prelude` global keybinding)
 <kbd>C-x C-f /remotehost:filename RET</kbd>  | TRAMP remote file editing               |                            | Open a directory to get a Dired buffer!
 <kbd>M-$</kbd>                               | Check and fix spelling at cursor        |                            |
+<kbd>C--</kbd>                               | Decrease font size                      |                            | (via `prelude` global keybinding)
+<kbd>C-+</kbd>                               | Increase font size                      |                            | (via `prelude` global keybinding)
 
 
 ## Credits
