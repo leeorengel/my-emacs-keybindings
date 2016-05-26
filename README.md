@@ -232,7 +232,7 @@ Keybinding                                | Description                         
 Keybinding                                  | Description                            | IntelliJ IDEA            |  Notes
 --------------------------------------------|----------------------------------------|--------------------------|--------------
 <kbd>C-x v d</kbd>                          | See current git status/changed files   | Open/switch to VCS tab   |
-<kbd>C-x v v, write message, C-c C-c</kbd>  | Commit file                            |                          |
+<kbd>C-x v v, \<write message\>, C-c C-c</kbd>  | Commit file                            |                          |
 <kbd>C-x v i</kbd>                          | Add/stage file                         |                          |
 <kbd>C-x v g</kbd>                          | Annotate/blame on current buffer       |                          |
 <kbd>C-x v +</kbd>                          | Pull latest changes                    |                          |
@@ -246,7 +246,7 @@ Keybinding                                | Description                         
 ------------------------------------------|----------------------------------------|--------------------
 <kbd>C-x g</kbd>                          | See current git status/changed files   |
 <kbd>g</kbd>                              | Reload status buffer                   |
-<kbd>c c, write message, C-c C-c</kbd>  | Commit file                            |
+<kbd>c c, \<write message\>, C-c C-c</kbd>  | Commit file                            |
 <kbd>P u</kbd>                            | Push changes to remote                 |
 <kbd>F u</kbd>                            | Pull latest changes                    |
 <kbd>s</kbd>                              | Stage file                             |
@@ -261,7 +261,7 @@ navigate to file, then <kbd>TAB</kbd>     | Version diff                        
 
 Keybinding                                   | Description                                     | Notes
 ---------------------------------------------|-------------------------------------------------|----------------------------
-<kbd><M-x describe-key</kbd>                 | Tell which function is bound to key combo       |
+<kbd>M-x describe-key</kbd>                 | Tell which function is bound to key combo       |
 <kbd>C-h a \<topics\> RET</kbd>                | Search help system for matches to <topics>      |
 <kbd>C-h b</kbd>                             | Display all key bindings in active modes        |
 <kbd>type key prefix</kbd> and wait 1 second | Get remaining completion options                | via `which-key`
