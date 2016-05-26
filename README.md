@@ -201,18 +201,18 @@ Keybinding             | Description                                  | Notes
 
 Project navigation. An alternate prefix is Command-P.
 
-Keybinding              | Description                                    | Notes
-------------------------|------------------------------------------------|-----------------------
-<kbd>C-c p f</kbd>      | Open file in project with completion           |                      |
-<kbd>C-c p F</kbd>      | Open file in ANY project with completion       |                      |
-<kbd>C-c p s g</kbd>    | Search all files in project using regex        |                      |
-<kbd>C-c p r</kbd>      | Find/replace all files in project              |                      |
-<kbd>C-c p b</kbd>      | Show all open project buffers                  |                      |
-<kbd>C-c p D</kbd>      | Open root project in dired                     |                      |
-<kbd>C-c p k</kbd>      | Kill all buffers in project                    |                      |
-<kbd>C-c p e</kbd>      | Show all recent opened files in project        |                      |
-<kbd>C-c p !</kbd>      | Run shell on root of project as current dir    |                      |
-<kbd>C-c p p</kbd>      | Show all known projects                        |                      |
+Keybinding              | Description                                    | IntelliJ IDEA                                  | Notes
+------------------------|------------------------------------------------|------------------------------------------------|--------------------
+<kbd>C-c p f</kbd>      | Open file in project with completion           | <kbd>Command Shift O</kbd>                     |
+<kbd>C-c p F</kbd>      | Open file in ANY project with completion       |                                                |
+<kbd>C-c p s g</kbd>    | Search all files in project using regex        | <kbd>Command Shift F</kbd> with regex checkbox |
+<kbd>C-c p r</kbd>      | Find/replace all files in project              | <kbd>Command Shift F</kbd>                     |
+<kbd>C-c p b</kbd>      | Show all open project buffers                  |                                                |
+<kbd>C-c p D</kbd>      | Open root project in dired                     |                                                |
+<kbd>C-c p k</kbd>      | Kill all buffers in project                    |                                                |
+<kbd>C-c p e</kbd>      | Show all recent opened files in project        | <kbd>Command E</kbd>                           |
+<kbd>C-c p !</kbd>      | Run shell on root of project as current dir    |                                                |
+<kbd>C-c p p</kbd>      | Show all known projects                        |                                                |
 
 ## Coding
 
