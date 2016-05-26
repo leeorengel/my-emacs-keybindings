@@ -24,8 +24,11 @@ This page has been organized roughly in order of importance in terms of the mini
 - [Projectile](#projectile)
 - [Coding](#coding)
 - [Clojure/CIDER](#clojurecider)
+- [Version Control](#versioncontrol)
+- [Magit](#magit)
 - [Minibuffer](#minibuffer)
 - [Markdown](#markdown)
+- [Help](#help)
 - [Miscellaneous](#miscellaneous)
 - [Credits](#credits)
 
@@ -243,7 +246,7 @@ Keybinding                                | Description                         
 ------------------------------------------|----------------------------------------|--------------------
 <kbd>C-x g</kbd>                          | See current git status/changed files   |
 <kbd>g</kbd>                              | Reload status buffer                   |
-<kbd>c c, <write message>, C-c C-c</kbd>  | Commit file                            |
+<kbd>c c, write message, C-c C-c</kbd>  | Commit file                            |
 <kbd>P u</kbd>                            | Push changes to remote                 |
 <kbd>F u</kbd>                            | Pull latest changes                    |
 <kbd>s</kbd>                              | Stage file                             |
@@ -254,13 +257,12 @@ navigate to file, then <kbd>TAB</kbd>     | Version diff                        
 <kbd>l l</kbd>                            | Show log                               |
 <kbd>q</kbd>                              | quit magix                             |
 
-
 ## Help
 
 Keybinding                                   | Description                                     | Notes
 ---------------------------------------------|-------------------------------------------------|----------------------------
 <kbd><M-x describe-key</kbd>                 | Tell which function is bound to key combo       |
-<kbd>C-h a <topics> RET</kbd>                | Search help system for matches to <topics>      |
+<kbd>C-h a \<topics\> RET</kbd>                | Search help system for matches to <topics>      |
 <kbd>C-h b</kbd>                             | Display all key bindings in active modes        |
 <kbd>type key prefix</kbd> and wait 1 second | Get remaining completion options                | via `which-key`
 <kbd>C-h m</kbd>                             | Display documentation of the current major mode |
