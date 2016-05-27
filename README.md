@@ -251,15 +251,8 @@ Keybinding                                | Description                         
 
 Keybinding                                | Description                                | Notes
 ------------------------------------------|--------------------------------------------|-------------------------------------
-<kbd></kbd>                         |             |
-<kbd></kbd>                         |             |
-
-## Project Explorer (NeoTree)
-
-Keybinding                                | Description                                | Notes
-------------------------------------------|--------------------------------------------|-------------------------------------
-<kbd></kbd>                         |             |
-<kbd></kbd>                         |             |
+<kbd></kbd>                               |             |
+<kbd></kbd>                               |             |
 
 ## Version Control
 
