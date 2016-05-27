@@ -77,8 +77,8 @@ Keybinding                                | Description                         
 ------------------------------------------|------------------------------------------|------------------------|------------------------
 <kbd>C-u C-SPACE</kbd>                    | Previous cursor position within buffer   | <kbd>Command-[</kbd>   | In IntelliJ, this is a general `back` cursor location including across files
 <kbd>C-u C-@</kbd>                        | Next cursor position within buffer       | <kbd>Command-]</kbd>   | In IntelliJ, this is a general `forward` cursor location including across files
-<kbd>M-<</kbd>                            | Go to beginning of buffer                | <kbd>Command-[</kbd>   | In IntelliJ, this is a general `back` cursor location including across files
-<kbd>M-></kbd>                            | Go to end of buffer                      | <kbd>Command-]</kbd>   | In IntelliJ, this is a general `forward` cursor location including across files
+<kbd>M-<</kbd>                            | Go to beginning of buffer                |                        |
+<kbd>M-></kbd>                            | Go to end of buffer                      |                        |
 <kbd>M-g g</kbd>                          | Go to line number                        | <kbd>Command-l</kbd>   |
 <kbd>C-l</kbd>                            | Center screen at cursor/point            |
 <kbd>M-v</kbd>                            | Scroll to previous screen                |
@@ -249,10 +249,10 @@ Keybinding                                | Description                         
 
 ## Jump to Definition (Dumb jump)
 
-Keybinding                                | Description                                | Notes
-------------------------------------------|--------------------------------------------|-------------------------------------
-<kbd></kbd>                               |             |
-<kbd></kbd>                               |             |
+Keybinding                                | Description                           | Notes
+------------------------------------------|---------------------------------------|-------------------------------
+<kbd>C-M-g</kbd>                          | Jump to definition                    |
+<kbd>C-M-q</kbd>                          | Jump to definition (with dialog)      |
 
 ## Version Control
 
