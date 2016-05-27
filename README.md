@@ -26,6 +26,7 @@ This assumes you are on a Mac and using OS X 10.5+ Keymaps in IntelliJ.
 - [Projectile](#projectile)
 - [File Navigation (NeoTree)](#file-navigation-neotree)
 - [Coding](#coding)
+- [Jump to Definition (Dumb jump)](#jump-to-definition-dumb-jump)
 - [Clojure/CIDER](#clojurecider)
 - [Version Control](#version-control)
 - [Magit](#magit)
@@ -218,14 +219,13 @@ Keybinding              | Description                                    | Intel
 <kbd>C-c p !</kbd>      | Run shell on root of project as current dir    |                                                |
 <kbd>C-c p p</kbd>      | Show all known projects                        |                                                |
 
-## File Management (NeoTree)
+## File Navigation (NeoTree)
 
 Keybinding                             | Description                                 | Notes
 ---------------------------------------|---------------------------------------------|---------------------------
 <kbd>\<f8\></kbd>                      | Show project explorer                       |
 <kbd>g</kbd>                           | Refresh project explorer                    | (when in neotree buffer)
 <kbd>H</kbd>                           | Toggle showing hidden files                 | (when in neotree buffer)
-
 
 ## Coding
 
