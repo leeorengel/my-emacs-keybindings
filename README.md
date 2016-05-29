@@ -14,7 +14,7 @@ This assumes you are on a Mac and using OS X 10.5+ Keymaps in IntelliJ.
   - [Within buffer](#within-buffer)
     - [Basic Motion](#basic-motion)
     - [Jumping Around](#jumping-around)
-    - [Jumping Around (Key Chords with Avy](#jumping-around-key-chords-with-avy)
+    - [Jumping Around (Key Chords with Avy)](#jumping-around-key-chords-with-avy)
   - [Across buffers](#across-buffers)
 - [Selection/Copy/Paste](#selectioncopypaste)
   - [Advanced](#selection-advanced)
@@ -221,11 +221,14 @@ Keybinding              | Description                                    | Intel
 
 ## File Navigation (NeoTree)
 
-Keybinding                             | Description                                 | Notes
----------------------------------------|---------------------------------------------|---------------------------
-<kbd>\<f8\></kbd>                      | Show project explorer                       |
-<kbd>g</kbd>                           | Refresh project explorer                    | (when in neotree buffer)
-<kbd>H</kbd>                           | Toggle showing hidden files                 | (when in neotree buffer)
+Keybinding                             | Description                                          | Notes
+---------------------------------------|------------------------------------------------------|---------------------------
+<kbd>\<f8\></kbd>                      | Toggle project explorer                              |
+<kbd>C-c C-n</kbd>                     | Create a new file or dir if filename ends with '/'   | (when in neotree buffer)
+<kbd>C-c C-d</kbd>                     | Delete a file or a directory                         | (when in neotree buffer)
+<kbd>C-c C-r</kbd>                     | Rename a file or a directory                         | (when in neotree buffer)
+<kbd>g</kbd>                           | Refresh project explorer                             | (when in neotree buffer)
+<kbd>H</kbd>                           | Toggle showing hidden files                          | (when in neotree buffer)
 
 ## Coding
 
