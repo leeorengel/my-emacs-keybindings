@@ -14,6 +14,7 @@ This assumes you are on a Mac and using OS X 10.5+ Keymaps in IntelliJ.
   - [Within buffer](#within-buffer)
     - [Basic Motion](#basic-motion)
     - [Jumping Around](#jumping-around)
+    - [Jumping Around (Key Chords with Avy](#jumping-around-key-chords-with-avy)
   - [Across buffers](#across-buffers)
 - [Selection/Copy/Paste](#selectioncopypaste)
   - [Advanced](#selection-advanced)
@@ -36,21 +37,8 @@ This assumes you are on a Mac and using OS X 10.5+ Keymaps in IntelliJ.
 - [Miscellaneous](#miscellaneous)
 - [Credits](#credits)
 
-## Minibuffer
 
-Keybindings for use inside the minibuffer.
-
-Keybinding                                | Description                                           | Notes
-------------------------------------------|-------------------------------------------------------|------------------------------------
-<kbd>TAB</kbd>                            | Auto-complete as much as possible                     |
-<kbd>SPACE</kbd>                          | Complete up to one word                               |
-<kbd>RET</kbd>                            | Complete and execute                                  |
-<kbd>?</kbd>                              | Show completion possibilities                         |
-<kbd>M-r</kbd>                            | Regex search backward through command history         |
-<kbd>M-s</kbd>                            | Regex search forward through command history          |
-<kbd>C-g</kbd> or <kbd>Esc Esc Esc</kbd>  | Abort current command                                 |
-
-jk## Navigation
+## Navigation
 
 ### Within a buffer
 
@@ -306,6 +294,34 @@ Keybinding                                   | Description                      
 <kbd>type key prefix</kbd> and wait 1 second | Get remaining completion options                              | via `which-key`
 <kbd>C-h m</kbd>                             | Display documentation of the current major mode               |
 <kbd>C-h f</kbd>                             | Run `help-apropos`, an interactive version of apropos-command |
+
+## Markdown
+
+Reference: http://ddloeffler.blogspot.ca/2013/04/keybindings-for-emacs-markdown-mode.html
+
+Keybinding                                      | Description                            | Notes
+------------------------------------------------|----------------------------------------|--------------------
+<kbd>C-c C-t h</kbd>                            | Create heading                         |
+<kbd>C-c C-a l</kbd>                            | Create link                            |
+<kbd>C-c C-a L</kbd>                            | Create anchor link                     |
+<kbd>C-c C-s e</kbd>                            | Italisize selection/region             |
+<kbd>C-c C-s s</kbd>                            | Bold selection/region                  |
+<kbd>C-c -</kbd>                                | Horizontal rule                        |
+
+
+## Minibuffer
+
+Keybindings for use inside the minibuffer.
+
+Keybinding                                | Description                                           | Notes
+------------------------------------------|-------------------------------------------------------|------------------------------------
+<kbd>TAB</kbd>                            | Auto-complete as much as possible                     |
+<kbd>SPACE</kbd>                          | Complete up to one word                               |
+<kbd>RET</kbd>                            | Complete and execute                                  |
+<kbd>?</kbd>                              | Show completion possibilities                         |
+<kbd>M-r</kbd>                            | Regex search backward through command history         |
+<kbd>M-s</kbd>                            | Regex search forward through command history          |
+<kbd>C-g</kbd> or <kbd>Esc Esc Esc</kbd>  | Abort current command                                 |
 
 ## Miscellaneous
 
