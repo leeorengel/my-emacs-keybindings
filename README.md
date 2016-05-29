@@ -2,7 +2,7 @@
 
 Essential keybindings to help users learning emacs coming from intelliJ IDEA or the Jetbrains family of IDE's.
 
-This page assumes you are using the prelude distribution of emacs.
+This page assumes you are using my forked version of prelude: https://github.com/leeorengel/prelude
 
 This page has been organized roughly in order of importance in terms of the minimum keybindings you need to know to get going in emacs. Subsequent sections include more advanced groupings of keybindings.
 
@@ -50,7 +50,7 @@ Keybinding                                | Description                         
 <kbd>M-s</kbd>                            | Regex search forward through command history          |
 <kbd>C-g</kbd> or <kbd>Esc Esc Esc</kbd>  | Abort current command                                 |
 
-## Navigation
+jk## Navigation
 
 ### Within a buffer
 
@@ -83,6 +83,18 @@ Keybinding                                | Description                         
 <kbd>C-l</kbd>                            | Center screen at cursor/point            |
 <kbd>M-v</kbd>                            | Scroll to previous screen                |
 <kbd>C-v</kbd>                            | Scroll to next screen                    |
+
+#### Jumping Around (Key chords with Avy)
+
+Keybinding                                | Description                                                       | Notes
+------------------------------------------|-------------------------------------------------------------------|------------------------
+<kbd>jj</kbd>                             | Jump to the beginning of a word (`avy-goto-word-1`)                 |
+<kbd>jk</kbd>                             | Jump to character (`avy-goto-char`)                                 |
+<kbd>jl</kbd>                             | Jump to the beginning of a line (`avy-goto-line`)                   |
+<kbd>JJ</kbd>                             | Jump to back to previos buffer (`crux-switch-to-previous-buffer`)   |
+<kbd>UU</kbd>                             | View edits as a tree (`undo-tree-visualize`)                        |
+<kbd>xx</kbd>                             | Executed extended command(`execute-extended-command`)               |
+
 
 ### Across buffers
 
@@ -286,14 +298,14 @@ navigate to file, then <kbd>TAB</kbd>     | Version diff                        
 
 ## Help
 
-Keybinding                                   | Description                                     | Notes
----------------------------------------------|-------------------------------------------------|----------------------------
-<kbd>M-x describe-key</kbd>                 | Tell which function is bound to key combo       |
-<kbd>C-h a \<topics\> RET</kbd>                | Search help system for matches to <topics>      |
-<kbd>C-h b</kbd>                             | Display all key bindings in active modes        |
-<kbd>type key prefix</kbd> and wait 1 second | Get remaining completion options                | via `which-key`
-<kbd>C-h m</kbd>                             | Display documentation of the current major mode |
-
+Keybinding                                   | Description                                                   | Notes
+---------------------------------------------|---------------------------------------------------------------|----------------------------
+<kbd>M-x describe-key</kbd>                 | Tell which function is bound to key combo                      |
+<kbd>C-h a \<topics\> RET</kbd>                | Search help system for matches to <topics>                  |
+<kbd>C-h b</kbd>                             | Display all key bindings in active modes                      |
+<kbd>type key prefix</kbd> and wait 1 second | Get remaining completion options                              | via `which-key`
+<kbd>C-h m</kbd>                             | Display documentation of the current major mode               |
+<kbd>C-h f</kbd>                             | Run `help-apropos`, an interactive version of apropos-command |
 
 ## Miscellaneous
 
