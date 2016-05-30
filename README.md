@@ -33,6 +33,7 @@ This assumes you are on a Mac and using OS X 10.5+ Keymaps in IntelliJ.
 - [Magit](#magit)
 - [Minibuffer](#minibuffer)
 - [Markdown](#markdown)
+- [Workgroups](#workgroups)
 - [Help](#help)
 - [Miscellaneous](#miscellaneous)
 - [Credits](#credits)
@@ -132,6 +133,8 @@ Keybinding                                     | Description                    
 <kbd>M-d</kbd>                                 | Delete next word                        |                      |
 <kbd>C-c d</kbd>                               | Duplicate current line                  |                      |
 <kbd>C-x C-t</kbd>                             | Swap line with line above               |                      |
+<kbd>M-z</kbd>                                 | delete up to char                       |                      | Keep hitting char to go to next occurrence. <kbd>C-K</kbd> to delete.
+
 
 ## Searching/Replacing
 
@@ -291,12 +294,22 @@ navigate to file, then <kbd>TAB</kbd>     | Version diff                        
 
 Keybinding                                   | Description                                                   | Notes
 ---------------------------------------------|---------------------------------------------------------------|----------------------------
-<kbd>M-x describe-key</kbd>                 | Tell which function is bound to key combo                      |
-<kbd>C-h a \<topics\> RET</kbd>                | Search help system for matches to <topics>                  |
+<kbd>M-x describe-key</kbd>                  | Tell which function is bound to key combo                     |
+<kbd>C-h b</kbd>                             | All active keybindings with helm narrowing                    |
+<kbd>C-h a \<topics\> RET</kbd>              | Search help system for matches to <topics>                    |
 <kbd>C-h b</kbd>                             | Display all key bindings in active modes                      |
 <kbd>type key prefix</kbd> and wait 1 second | Get remaining completion options                              | via `which-key`
 <kbd>C-h m</kbd>                             | Display documentation of the current major mode               |
 <kbd>C-h f</kbd>                             | Run `help-apropos`, an interactive version of apropos-command |
+
+## Workgroups
+
+Keybinding                 | Description                               | Notes
+---------------------------|-------------------------------------------|----------------------
+<kbd>C-c z C-s</kbd>       | Save current session for workgroup        |
+<kbd>C-c z C-f</kbd>       | Load a session for a given workgroup      |
+<kbd>C-c z c</kbd>         | Create a new workgroup                    |
+<kbd>C-c z v</kbd>         | Switch to a workgroup                     |
 
 ## Markdown
 
