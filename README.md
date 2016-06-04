@@ -29,7 +29,6 @@ This assumes you are on a Mac and using OS X 10.5+ Keymaps in IntelliJ.
 - [Coding](#coding)
 - [Jump to Definition (Dumb jump)](#jump-to-definition-dumb-jump)
 - [Clojure/CIDER](#clojurecider)
-- [Version Control](#version-control)
 - [Magit](#magit)
 - [Minibuffer](#minibuffer)
 - [Markdown](#markdown)
@@ -260,35 +259,30 @@ Keybinding                                | Description                         
 <kbd>C-M-g</kbd>                          | Jump to definition                    |
 <kbd>C-M-q</kbd>                          | Jump to definition (with dialog)      |
 
-## Version Control
-
-Keybinding                                  | Description                            | IntelliJ IDEA            |  Notes
---------------------------------------------|----------------------------------------|--------------------------|--------------
-<kbd>C-x v d</kbd>                          | See current git status/changed files   | Open/switch to VCS tab   |
-<kbd>C-x v v, \<write message\>, C-c C-c</kbd>  | Commit file                            |                          |
-<kbd>C-x v i</kbd>                          | Add/stage file                         |                          |
-<kbd>C-x v g</kbd>                          | Annotate/blame on current buffer       |                          |
-<kbd>C-x v +</kbd>                          | Pull latest changes                    |                          |
-<kbd>C-x v =</kbd>                          | Version diff                           | <kbd>Command D</kbd>     |
-<kbd>C-x v u</kbd>                          | Revert changes                         |                          |
-<kbd>C-x v l</kbd>                          | Show log                               |                          |
-
 ## Magit
 
-Keybinding                                | Description                            | Notes
-------------------------------------------|----------------------------------------|--------------------
-<kbd>C-x g</kbd>                          | See current git status/changed files   |
-<kbd>g</kbd>                              | Reload status buffer                   |
+Keybinding                                  | Description                            | Notes
+--------------------------------------------|----------------------------------------|--------------------
+<kbd>C-x g</kbd>                            | See current git status/changed files   |
+<kbd>g</kbd>                                | Reload status buffer                   |
 <kbd>c c, \<write message\>, C-c C-c</kbd>  | Commit file                            |
-<kbd>P u</kbd>                            | Push changes to remote                 |
-<kbd>F u</kbd>                            | Pull latest changes                    |
-<kbd>s</kbd>                              | Stage file                             |
-<kbd>u</kbd>                              | Unstage file                           |
-<kbd>b b</kbd>                            | Switch branch                          |
-navigate to file, then <kbd>TAB</kbd>     | Version diff                           |
-<kbd>k</kbd>                              | revert changes                         |
-<kbd>l l</kbd>                            | Show log                               |
-<kbd>q</kbd>                              | quit magix                             |
+<kbd>P u</kbd>                              | Push changes to remote                 |
+<kbd>F u</kbd>                              | Pull latest changes                    |
+<kbd>s</kbd>                                | Stage file                             |
+<kbd>u</kbd>                                | Unstage file                           |
+<kbd>b b</kbd>                              | Switch branch                          |
+navigate to file, then <kbd>TAB</kbd>       | Version diff                           |
+<kbd>k</kbd>                                | revert changes                         |
+<kbd>l l</kbd>                              | Show log                               |
+<kbd>b</kbd>                                | Switch to branch                       |
+<kbd>B</kbd>                                | Create a new branch                    |
+<kbd>z</kbd>                                | Stash changes                          |
+<kbd>A</kbd>                                | Unstash changes                        |
+<kbd>i</kbd>                                | Ignore file(s)                         |
+<kbd>C-u i</kbd>                            | Ignore directory                       |
+<kbd>I</kbd>                                | Exclude file(s)                        |
+<kbd>M-x magit-clone</kbd>                  | Clone a repo                           |
+<kbd>q</kbd>                                | Quit                                   |
 
 ## Help
 
