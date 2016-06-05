@@ -29,7 +29,7 @@ This assumes you are on a Mac and using OS X 10.5+ Keymaps in IntelliJ.
 - [Coding](#coding)
 - [Jump to Definition (Dumb jump)](#jump-to-definition-dumb-jump)
 - [Clojure/CIDER](#clojurecider)
-- [Magit](#magit)
+- [Version Control (Magit)](#version-control-magit)
 - [Minibuffer](#minibuffer)
 - [Markdown](#markdown)
 - [Workgroups](#workgroups)
@@ -215,6 +215,7 @@ Keybinding              | Description                                    | Intel
 <kbd>C-c p s g</kbd>    | Search all files in project using regex        | <kbd>Command Shift F</kbd> with regex checkbox |
 <kbd>C-c p r</kbd>      | Find/replace all files in project              | <kbd>Command Shift F</kbd>                     |
 <kbd>C-c p b</kbd>      | Show all open project buffers                  |                                                |
+<kbd>C-c p p</kbd>      | Switch between between known projects          |                                                |
 <kbd>C-c p D</kbd>      | Open root project in dired                     |                                                |
 <kbd>C-c p k</kbd>      | Kill all buffers in project                    |                                                |
 <kbd>C-c p e</kbd>      | Show all recent opened files in project        | <kbd>Command E</kbd>                           |
@@ -259,7 +260,7 @@ Keybinding                                | Description                         
 <kbd>C-M-g</kbd>                          | Jump to definition                    |
 <kbd>C-M-q</kbd>                          | Jump to definition (with dialog)      |
 
-## Magit
+## Version Control (Magit)
 
 Keybinding                                  | Description                            | Notes
 --------------------------------------------|----------------------------------------|--------------------
