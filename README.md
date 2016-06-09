@@ -253,7 +253,7 @@ Keybinding                                | Description                         
 <kbd>C-M-f</kbd>                          | Move forward one s-expression             | Must be on a paren, otherwise behaves like forward word
 <kbd>C-M-d</kbd>                          | Move down to next nested s-expression     |
 <kbd>C-M-n</kbd>                          | Move up s-expression                      |
-<kbd>C-M-u</kbd>                          | Move up one level in nested s-expression  |
+<kbd>C-M-u</kbd>                          | Move up one level in nested s-expression  | need to fix OSX interception of this keybinding (see http://emacs.stackexchange.com/a/20544/11397)
 
 
 ## Clojure/CIDER
