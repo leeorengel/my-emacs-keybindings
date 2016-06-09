@@ -28,6 +28,7 @@ This assumes you are on a Mac and using OS X 10.5+ Keymaps in IntelliJ.
 - [File Navigation (NeoTree)](#file-navigation-neotree)
 - [Coding](#coding)
 - [Jump to Definition (Dumb jump)](#jump-to-definition-dumb-jump)
+- [Smartparens](#smartparens)
 - [Clojure/CIDER](#clojurecider)
 - [Version Control (Magit)](#version-control-magit)
 - [Minibuffer](#minibuffer)
@@ -122,17 +123,18 @@ Keybinding                                | Description                         
 
 Keybindings for making changes within a buffer.
 
-Keybinding                                     | Description                             | IntelliJ IDEA        | Notes
------------------------------------------------|-----------------------------------------|----------------------|--------------
-<kbd>C-/</kbd>                                 | Undo                                    | <kbd>Command-Z</kbd> |
-<kbd>C-Shift-Del</kbd> OR <kbd>Command K</kbd> | Delete current line                     |                      | <kbd>Command K</kbd> via `prelude` keybinding
-<kbd>C-k</kbd>                                 | Delete rest of line from cursor         |                      |
-<kbd>M-0 C-k</kbd>                             | Delete from cursor to beginning of line |                      |
-<kbd>M-Del</kbd>                               | Delete previous word                    |                      |
-<kbd>M-d</kbd>                                 | Delete next word                        |                      |
-<kbd>C-c d</kbd>                               | Duplicate current line                  |                      |
-<kbd>C-x C-t</kbd>                             | Swap line with line above               |                      |
-<kbd>M-z</kbd>                                 | delete up to char                       |                      | Keep hitting char to go to next occurrence. <kbd>C-K</kbd> to delete.
+Keybinding                                     | Description                                              | IntelliJ IDEA        | Notes
+-----------------------------------------------|----------------------------------------------------------|----------------------|--------------
+<kbd>C-/</kbd>                                 | Undo                                                     | <kbd>Command-Z</kbd> |
+<kbd>C-Shift-Del</kbd> OR <kbd>Command K</kbd> | Delete current line                                      |                      | <kbd>Command K</kbd> via `prelude` keybinding
+<kbd>C-k</kbd>                                 | Delete rest of line from cursor                          |                      |
+<kbd>M-0 C-k</kbd>                             | Delete from cursor to beginning of line                  |                      |
+<kbd>M-Del</kbd>                               | Delete previous word                                     |                      |
+<kbd>M-d</kbd>                                 | Delete next word                                         |                      |
+<kbd>C-c d</kbd>                               | Duplicate current line                                   |                      |
+<kbd>C-x C-t</kbd>                             | Swap line with line above                                |                      |
+<kbd>M-z</kbd>                                 | delete up to char                                        |                      | Keep hitting char to go to next occurrence. <kbd>C-K</kbd> to delete.
+<kbd>M-\</kbd>                                 | delete all surrounding whitespace and tabs around cursor |                      |
 
 
 ## Searching/Replacing
@@ -215,7 +217,7 @@ Keybinding              | Description                                    | Intel
 <kbd>C-c p s g</kbd>    | Search all files in project using regex        | <kbd>Command Shift F</kbd> with regex checkbox |
 <kbd>C-c p r</kbd>      | Find/replace all files in project              | <kbd>Command Shift F</kbd>                     |
 <kbd>C-c p b</kbd>      | Show all open project buffers                  |                                                |
-<kbd>C-c p p</kbd>      | Switch between between known projects          |                                                |
+<kbd>C-c p p</kbd>      | Switch between known projects                  |                                                |
 <kbd>C-c p D</kbd>      | Open root project in dired                     |                                                |
 <kbd>C-c p k</kbd>      | Kill all buffers in project                    |                                                |
 <kbd>C-c p e</kbd>      | Show all recent opened files in project        | <kbd>Command E</kbd>                           |
@@ -241,6 +243,17 @@ Keybinding                                | Description                         
 <kbd>C-c p c</kbd>                        | Run compile on project                      |                      |
 <kbd>C-c p P</kbd>                        | Run tests on project                        |                      |
 <kbd>C-c p t</kbd>                        | Toggle between implementation and test file |                      |
+
+## Smartparens
+
+Keybinding                                | Description                               | Notes
+------------------------------------------|-------------------------------------------|-------------------------------------
+<kbd>C-M-b</kbd>                          | Move backward one s-expression            | Must be on a paren, otherwise behaves like backward word
+<kbd>C-M-f</kbd>                          | Move forward one s-expression             | Must be on a paren, otherwise behaves like forward word
+<kbd>C-M-d</kbd>                          | Move down to next nested s-expression     |
+<kbd>C-M-n</kbd>                          | Move up s-expression                      |
+<kbd>C-M-u</kbd>                          | Move up one level in nested s-expression  |
+
 
 ## Clojure/CIDER
 
