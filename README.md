@@ -196,6 +196,7 @@ Keybinding                    | Description                                    |
 <kbd>C-x +</kbd>              | Balance windows                                |                            |
 <kbd>C-M-Shift-v</kbd>        | Scroll backward other window                   |                            |
 <kbd>C-M-v</kbd>              | Scroll forward other window                    |                            |
+<kbd>C-c S</kbd>              | Swap windows                                   |                            |
 
 ## Frame Management
 
