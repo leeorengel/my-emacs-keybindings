@@ -247,13 +247,20 @@ Keybinding                                | Description                         
 
 ## Smartparens
 
-Keybinding                                | Description                               | Notes
-------------------------------------------|-------------------------------------------|-------------------------------------
-<kbd>C-M-b</kbd>                          | Move backward one s-expression            | Must be on a paren, otherwise behaves like backward word
-<kbd>C-M-f</kbd>                          | Move forward one s-expression             | Must be on a paren, otherwise behaves like forward word
-<kbd>C-M-d</kbd>                          | Move down to next nested s-expression     |
-<kbd>C-M-n</kbd>                          | Move up s-expression                      |
-<kbd>C-M-u</kbd>                          | Move up one level in nested s-expression  | need to fix OSX interception of this keybinding (see http://emacs.stackexchange.com/a/20544/11397)
+Keybinding                                | Description                                                                     | Notes
+------------------------------------------|---------------------------------------------------------------------------------|-------------------------------------
+<kbd>C-M-b</kbd>                          | Move backward one s-expression                                                  | Must be on a paren, otherwise behaves like backward word
+<kbd>C-M-f</kbd>                          | Move forward one s-expression                                                   | Must be on a paren, otherwise behaves like forward word
+<kbd>C-M-d</kbd>                          | Move down to next nested s-expression                                           |
+<kbd>C-M-n</kbd>                          | Move up s-expression                                                            |
+<kbd>C-M-u</kbd>                          | Move up one level in nested s-expression                                        | Requires fix for OSX interception of the keybinding (see http://emacs.stackexchange.com/a/20544/11397)
+<kbd>C-(</kbd>,<kbd>C-{</kbd>             | Pull in or out previous word/s-expression into current s-expression             |
+<kbd>C-)</kbd>,<kbd>C-}</kbd>             | Pull in or out next word/s-expression into current s-expression                 |
+<kbd>M-S</kbd>                            | Split current s-expression into two separate ones with cursor as split point    |
+<kbd>M-s</kbd>                            | Remove parens immediately surrounding cursor point                              |
+<kbd>M-<up></kbd>                         | Remove all chars before cursor point inside s-expression and surrounding parens |
+<kbd>M-<down></kbd>                       | Remove all chars after cursor point inside s-expression and surrounding parens  |
+<kbd>M-r</kbd>                            | Remove all chars around cursor point inside s-expression and surrounding parens |
 
 
 ## Clojure/CIDER
