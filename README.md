@@ -134,7 +134,7 @@ Keybinding                                     | Description                    
 <kbd>C-c d</kbd>                               | Duplicate current line                                   |                      |
 <kbd>C-x C-t</kbd>                             | Swap line with line above                                |                      |
 <kbd>M-z</kbd>                                 | delete up to char                                        |                      | Keep hitting char to go to next occurrence. <kbd>C-K</kbd> to delete.
-<kbd>M-\</kbd>                                 | delete all surrounding whitespace and tabs around cursor |                      |
+<kbd>M-\\</kbd>                                | delete all surrounding whitespace and tabs around cursor |                      |
 
 
 ## Searching/Replacing
@@ -258,8 +258,8 @@ Keybinding                                | Description                         
 <kbd>C-)</kbd>,<kbd>C-}</kbd>             | Pull in or out next word/s-expression into current s-expression                 |
 <kbd>M-S</kbd>                            | Split current s-expression into two separate ones with cursor as split point    |
 <kbd>M-s</kbd>                            | Remove parens immediately surrounding cursor point                              |
-<kbd>M-<up></kbd>                         | Remove all chars before cursor point inside s-expression and surrounding parens |
-<kbd>M-<down></kbd>                       | Remove all chars after cursor point inside s-expression and surrounding parens  |
+<kbd>M-[up arrow]</kbd>                   | Remove all chars before cursor point inside s-expression and surrounding parens |
+<kbd>M-[down arrow]</kbd>                 | Remove all chars after cursor point inside s-expression and surrounding parens  |
 <kbd>M-r</kbd>                            | Remove all chars around cursor point inside s-expression and surrounding parens |
 
 
