@@ -199,6 +199,8 @@ Keybinding                    | Description                                    |
 <kbd>C-M-Shift-v</kbd>        | Scroll backward other window                   |                            |
 <kbd>C-M-v</kbd>              | Scroll forward other window                    |                            |
 <kbd>C-c S</kbd>              | Swap windows                                   |                            |
+<kbd>C-x {</kbd>              | Shrink window narrower                         |                            |
+<kbd>C-x }</kbd>              | Grow window wider                              |                            |
 
 ## Frame Management
 
