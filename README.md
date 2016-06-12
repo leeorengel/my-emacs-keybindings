@@ -123,18 +123,20 @@ Keybinding                                | Description                         
 
 Keybindings for making changes within a buffer.
 
-Keybinding                                     | Description                                              | IntelliJ IDEA        | Notes
------------------------------------------------|----------------------------------------------------------|----------------------|--------------
-<kbd>C-/</kbd>                                 | Undo                                                     | <kbd>Command-Z</kbd> |
-<kbd>C-Shift-Del</kbd> OR <kbd>Command K</kbd> | Delete current line                                      |                      | <kbd>Command K</kbd> via `prelude` keybinding
-<kbd>C-k</kbd>                                 | Delete rest of line from cursor                          |                      |
-<kbd>M-0 C-k</kbd>                             | Delete from cursor to beginning of line                  |                      |
-<kbd>M-Del</kbd>                               | Delete previous word                                     |                      |
-<kbd>M-d</kbd>                                 | Delete next word                                         |                      |
-<kbd>C-c d</kbd>                               | Duplicate current line                                   |                      |
-<kbd>C-x C-t</kbd>                             | Swap line with line above                                |                      |
-<kbd>M-z</kbd>                                 | delete up to char                                        |                      | Keep hitting char to go to next occurrence. <kbd>C-K</kbd> to delete.
-<kbd>M-\\</kbd>                                | delete all surrounding whitespace and tabs around cursor |                      |
+Keybinding                                     | Description                                              | IntelliJ IDEA              | Notes
+-----------------------------------------------|----------------------------------------------------------|----------------------------|--------------
+<kbd>C-/</kbd>                                 | Undo                                                     | <kbd>Command-Z</kbd>       |
+<kbd>C-S-/</kbd>                               | Redo                                                     | <kbd>Command-Shift-Z</kbd> |
+<kbd>C-x u</kbd>                               | Undo tree visualize                                      | <kbd>Command-Shift-Z</kbd> |
+<kbd>C-Shift-Del</kbd> OR <kbd>Command K</kbd> | Delete current line                                      |                            | <kbd>Command K</kbd> via `prelude` keybinding
+<kbd>C-k</kbd>                                 | Delete rest of line from cursor                          |                            |
+<kbd>M-0 C-k</kbd>                             | Delete from cursor to beginning of line                  |                            |
+<kbd>M-Del</kbd>                               | Delete previous word                                     |                            |
+<kbd>M-d</kbd>                                 | Delete next word                                         |                            |
+<kbd>C-c d</kbd>                               | Duplicate current line                                   |                            |
+<kbd>C-x C-t</kbd>                             | Swap line with line above                                |                            |
+<kbd>M-z</kbd>                                 | delete up to char                                        |                            | Keep hitting char to go to next occurrence. <kbd>C-K</kbd> to delete.
+<kbd>M-\\</kbd>                                | delete all surrounding whitespace and tabs around cursor |                            |
 
 
 ## Searching/Replacing
