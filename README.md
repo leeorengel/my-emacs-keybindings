@@ -156,6 +156,7 @@ Keybinding                                | Description                         
 <kbd>C-x b <name> RET</kbd>               | Create a new/open recent buffer     |
 <kbd>C-x 4 b <name> RET</kbd>             | Create a new buffer in new window   |
 <kbd>C-x C-f</kbd>                        | Open a file                         |
+<kbd>C-c f</kbd>                          | Open recent file                    |
 <kbd>C-x k RET</kbd>                      | Close buffer                        |
 <kbd>C-x C-s</kbd>                        | Save buffer                         |
 <kbd>C-x C-w <name> RET</kbd>             | Save buffer to file                 |
