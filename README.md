@@ -62,7 +62,7 @@ Keybindings for very basic cursor movement.
 Keybindings for jumping around inside a single buffer.
 
 | Keybinding     | Description                            | Notes             |
-|----------------|----------------------------------------+-------------------|
+|----------------|----------------------------------------|-------------------|
 | <kbd>C-[</kbd> | Previous cursor position within buffer | Custom keybinding |
 | <kbd>C-]</kbd> | Next cursor position within buffer     | Custom keybinding |
 | <kbd>M-<</kbd> | Go to beginning of buffer              |                   |
@@ -107,7 +107,7 @@ Commands for selecting, cutting, copying and pasting regions of text.
 ### Selection advanced
 
 | Keybinding       | Description         | Notes |
-|------------------|---------------------+-------|
+|------------------|---------------------|-------|
 | <kbd>C-M-@</kbd> | Select s-expression |       |
 | <kbd>C-M-h</kbd> | Select function     |       |
 
@@ -133,7 +133,7 @@ Keybindings for making changes within a buffer.
 ### Transposing
 
 | Keybinding       | Description             |
-|------------------+-------------------------|
+|------------------|-------------------------|
 | <kbd>M-t l</kbd> | Transpose lines         |
 | <kbd>M-t w</kbd> | Transpose words         |
 | <kbd>M-t s</kbd> | Transpose s-expressions |
@@ -153,7 +153,7 @@ Keybindings for making changes within a buffer.
 ## File Management
 
 | Keybinding                    | Description                       | Notes             |
-|-------------------------------|-----------------------------------+-------------------|
+|-------------------------------|-----------------------------------|-------------------|
 | <kbd>C-x b <name> RET</kbd>   | Create a new/open recent buffer   |                   |
 | <kbd>C-x 4 b <name> RET</kbd> | Create a new buffer in new window |                   |
 | <kbd>C-x C-f</kbd>            | Open a file                       |                   |
@@ -167,7 +167,7 @@ Keybindings for making changes within a buffer.
 ## Directory Management
 
 | Keybinding                            | Description                                       | Notes |
-|---------------------------------------+---------------------------------------------------+-------|
+|---------------------------------------|---------------------------------------------------|-------|
 | <kbd>C-x d</kbd>                      | Open Dired                                        |       |
 | <kbd><</kbd>                          | Previous directory in listing (skips files)       |       |
 | <kbd>></kbd>                          | Next directory in listing (skips files)           |       |
@@ -186,7 +186,7 @@ Keybindings for making changes within a buffer.
 ## Window Management
 
 | Keybinding                  | Description                                   | Notes               |
-|-----------------------------+-----------------------------------------------+---------------------|
+|-----------------------------|-----------------------------------------------|---------------------|
 | <kbd>C-x 1</kbd>            | Close all other windows except current window |                     |
 | <kbd>C-x 2</kbd>            | Split current window horizontally             |                     |
 | <kbd>C-x 3</kbd>            | Split current window vertically               |                     |
@@ -203,7 +203,7 @@ Keybindings for making changes within a buffer.
 ### Windmove
 
 | Keybinding           | Description                                   |
-|----------------------+-----------------------------------------------|
+|----------------------|-----------------------------------------------|
 | <kbd>S-<left></kbd>  | Move to window to the left of current window  |
 | <kbd>S-<right></kbd> | Move to window to the right of current window |
 | <kbd>S-<up></kbd>    | Move to window above current window           |
@@ -212,7 +212,7 @@ Keybindings for making changes within a buffer.
 ## Frame Management
 
 | Keybinding         | Description                                 | Notes |
-|--------------------+---------------------------------------------+-------|
+|--------------------|---------------------------------------------|-------|
 | <kbd>C-x 5 1</kbd> | Close all other frames except current frame |       |
 | <kbd>C-x 5 2</kbd> | Split current frame horizontally            |       |
 | <kbd>C-x 5 0</kbd> | Close current frame                         |       |
@@ -224,7 +224,7 @@ Keybindings for making changes within a buffer.
 Project navigation. An alternate prefix is Command-P.
 
 | Keybinding           | Description                                 | IntelliJ IDEA                                  | Notes |
-|----------------------+---------------------------------------------+------------------------------------------------+-------|
+|----------------------|---------------------------------------------|------------------------------------------------|-------|
 | <kbd>C-c p f</kbd>   | Open file in project with completion        | <kbd>Command Shift O</kbd>                     |       |
 | <kbd>C-c p F</kbd>   | Open file in ANY project with completion    |                                                |       |
 | <kbd>C-c p s g</kbd> | Search all files in project using regex     | <kbd>Command Shift F</kbd> with regex checkbox |       |
@@ -240,7 +240,7 @@ Project navigation. An alternate prefix is Command-P.
 ## File Navigation (NeoTree)
 
 | Keybinding         | Description                                        | Notes                    |
-|--------------------+----------------------------------------------------+--------------------------|
+|--------------------|----------------------------------------------------|--------------------------|
 | <kbd>\<f8\></kbd>  | Toggle project explorer                            |                          |
 | <kbd>C-c C-n</kbd> | Create a new file or dir if filename ends with '/' | (when in neotree buffer) |
 | <kbd>C-c C-d</kbd> | Delete a file or a directory                       | (when in neotree buffer) |
@@ -251,7 +251,7 @@ Project navigation. An alternate prefix is Command-P.
 ## Coding
 
 | Keybinding           | Description                                 | IntelliJ IDEA        | Notes                                      |
-|----------------------+---------------------------------------------+----------------------+--------------------------------------------|
+|----------------------|---------------------------------------------|----------------------|--------------------------------------------|
 | <kbd>C-c p c</kbd>   | Run compile on project                      |                      |                                            |
 | <kbd>C-c p P</kbd>   | Run tests on project                        |                      |                                            |
 | <kbd>C-c p t</kbd>   | Toggle between implementation and test file |                      |                                            |
@@ -259,7 +259,7 @@ Project navigation. An alternate prefix is Command-P.
 ## Smartparens
 
 | Keybinding                    | Description                                                                     | Notes                                                                                                  |
-|-------------------------------+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------|
+|-------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | <kbd>C-M-b</kbd>              | Move backward one s-expression                                                  | Must be on a paren, otherwise behaves like backward word                                               |
 | <kbd>C-M-f</kbd>              | Move forward one s-expression                                                   | Must be on a paren, otherwise behaves like forward word                                                |
 | <kbd>C-M-d</kbd>              | Move down to next nested s-expression                                           |                                                                                                        |
@@ -277,7 +277,7 @@ Project navigation. An alternate prefix is Command-P.
 ## Clojure/CIDER
 
 | Keybinding                        | Description                                | Notes |
-|-----------------------------------+--------------------------------------------+-------|
+|-----------------------------------|--------------------------------------------|-------|
 | <kbd>C-c M-j</kbd>                | Open nREPL in a clojure project            |       |
 | <kbd>,</kbd>                      | Once repl is open, get command keybindings |       |
 | <kbd>C-c C-t n</kbd>              | Run tests in current ns                    |       |
@@ -288,14 +288,14 @@ Project navigation. An alternate prefix is Command-P.
 ## Jump to Definition (Dumb jump)
 
 | Keybinding       | Description                      | Notes |
-|------------------+----------------------------------+-------|
+|------------------|----------------------------------|-------|
 | <kbd>C-M-g</kbd> | Jump to definition               |       |
 | <kbd>C-M-q</kbd> | Jump to definition (with dialog) |       |
 
 ## Version Control (Magit)
 
 | Keybinding                                 | Description                          |
-|--------------------------------------------+--------------------------------------|
+|--------------------------------------------|--------------------------------------|
 | <kbd>C-x m</kbd>                           | See current git status/changed files |
 | <kbd>g</kbd>                               | Reload status buffer                 |
 | <kbd>c c, \<write message\>, C-c C-c</kbd> | Commit file                          |
@@ -320,7 +320,7 @@ Project navigation. An alternate prefix is Command-P.
 ## Eshell
 
 | Keybinding         | Description                                   |
-|--------------------+-----------------------------------------------|
+|--------------------|-----------------------------------------------|
 | <kbd>C-z</kbd>     | Open eshell                                   |
 | <kbd>M-p</kbd>     | Go back in command history                    |
 | <kbd>M-n</kbd>     | Go forward in command history                 |
@@ -335,7 +335,7 @@ Project navigation. An alternate prefix is Command-P.
 ### Tables
 
 | Keybinding            | Description                                       |
-|-----------------------+---------------------------------------------------|
+|-----------------------|---------------------------------------------------|
 | <kbd>C-c \vert</kbd>  | Convert active region into a table                |
 | <kbd>C-c C-c          | Re-align table                                    |
 | <kbd>TAB</kbd>        | Re-align the table and move to the next field     |
@@ -354,7 +354,7 @@ Project navigation. An alternate prefix is Command-P.
 ## Help
 
 | Keybinding                                   | Description                                                   | Notes             |
-|----------------------------------------------+---------------------------------------------------------------+-------------------|
+|----------------------------------------------|---------------------------------------------------------------|-------------------|
 | <kbd>M-x describe-key</kbd>                  | Tell which function is bound to key combo                     |                   |
 | <kbd>C-h b</kbd>                             | All active keybindings with flx-ido narrowing                 | Custom keybinding |
 | <kbd>C-h a \<topics\> RET</kbd>              | Search help system for matches to <topics>                    |                   |
@@ -365,7 +365,7 @@ Project navigation. An alternate prefix is Command-P.
 ## Workgroups
 
 | Keybinding           | Description                          | Notes |
-|----------------------+--------------------------------------+-------|
+|----------------------|--------------------------------------|-------|
 | <kbd>C-c z C-s</kbd> | Save current session for workgroup   |       |
 | <kbd>C-c z C-f</kbd> | Load a session for a given workgroup |       |
 | <kbd>C-c z c</kbd>   | Create a new workgroup               |       |
@@ -376,7 +376,7 @@ Project navigation. An alternate prefix is Command-P.
 Reference: http://ddloeffler.blogspot.ca/2013/04/keybindings-for-emacs-markdown-mode.html
 
 | Keybinding           | Description                | Notes |
-|----------------------+----------------------------+-------|
+|----------------------|----------------------------|-------|
 | <kbd>C-c C-t h</kbd> | Create heading             |       |
 | <kbd>C-c C-a l</kbd> | Create link                |       |
 | <kbd>C-c C-a L</kbd> | Create anchor link         |       |
@@ -389,7 +389,7 @@ Reference: http://ddloeffler.blogspot.ca/2013/04/keybindings-for-emacs-markdown-
 Keybindings for use inside the minibuffer.
 
 | Keybinding                               | Description                                   | Notes |
-|------------------------------------------+-----------------------------------------------+-------|
+|------------------------------------------|-----------------------------------------------|-------|
 | <kbd>TAB</kbd>                           | Auto-complete as much as possible             |       |
 | <kbd>SPACE</kbd>                         | Complete up to one word                       |       |
 | <kbd>RET</kbd>                           | Complete and execute                          |       |
@@ -401,7 +401,7 @@ Keybindings for use inside the minibuffer.
 ## Miscellaneous
 
 | Keybinding                                  | Description                      | Notes                                        |
-|---------------------------------------------+----------------------------------+----------------------------------------------|
+|---------------------------------------------|----------------------------------|----------------------------------------------|
 | <kbd>M-x ediff</kbd>                        | Diff Files                       |                                              |
 | <kbd>C-x v =</kbd>                          | View diff of current file        |                                              |
 | <kbd>M-x procd</kbd>                        | View processes (like top)        | OR <kbd>C-x</kbd> p (with global keybinding) |
