@@ -10,37 +10,37 @@ In terms of analogs to IntelliJ, this assumes you are on a Mac and using OS X 10
 
 **Table of Contents**
 
-- [Navigation](#navigation)
++ [Navigation](#navigation)
   - [Within buffer](#within-buffer)
     - [Basic Motion](#basic-motion)
     - [Jumping Around](#jumping-around)
     - [Jumping Around (Key Chords with Avy)](#jumping-around-key-chords-with-avy)
   - [Across buffers](#across-buffers)
-- [Selection/Copy/Paste](#selectioncopypaste)
++ [Selection/Copy/Paste](#selectioncopypaste)
   - [Advanced](#selection-advanced)
-- [Editing](#editing)
-- [Searching/Replacing](#searchingreplacing)
-- [File Management](#file-management)
-- [Directory Management](#directory-management)
-- [Window Management](#window-management)
++ [Editing](#editing)
++ [Searching/Replacing](#searchingreplacing)
++ [File Management](#file-management)
++ [Directory Management](#directory-management)
++ [Window Management](#window-management)
   - [Windmove](#windmove)
-- [Frame Management](#frame-management)
-- [Projectile](#projectile)
-- [File Navigation (NeoTree)](#file-navigation-neotree)
-- [Coding](#coding)
-- [Jump to Definition (Dumb jump)](#jump-to-definition-dumb-jump)
-- [Smartparens](#smartparens)
-- [Clojure/CIDER](#clojurecider)
-- [Version Control (Magit)](#version-control-magit)
-- [Org Mode](#org-mode)
++ [Frame Management](#frame-management)
++ [Projectile](#projectile)
++ [File Navigation (NeoTree)](#file-navigation-neotree)
++ [Coding](#coding)
++ [Jump to Definition (Dumb jump)](#jump-to-definition-dumb-jump)
++ [Smartparens](#smartparens)
++ [Clojure/CIDER](#clojurecider)
++ [Version Control (Magit)](#version-control-magit)
++ [Org Mode](#org-mode)
   - [Table Editing](#table-editing)
-- [Eshell](#eshell)
-- [Minibuffer](#minibuffer)
-- [Markdown](#markdown)
-- [Workgroups](#workgroups)
-- [Help](#help)
-- [Miscellaneous](#miscellaneous)
-- [Credits](#credits)
++ [Eshell](#eshell)
++ [Minibuffer](#minibuffer)
++ [Markdown](#markdown)
++ [Workgroups](#workgroups)
++ [Help](#help)
++ [Miscellaneous](#miscellaneous)
++ [Credits](#credits)
 
 ## Navigation
 
@@ -51,7 +51,7 @@ In terms of analogs to IntelliJ, this assumes you are on a Mac and using OS X 10
 Keybindings for very basic cursor movement.
 
 | Keybinding       | Description                      |
-|------------------|----------------------------------|
+|------------------+----------------------------------|
 | <kbd>C-p</kbd>   | move cursor to previous line     |
 | <kbd>C-n</kbd>   | move cursor to next line         |
 | <kbd>M-b</kbd>   | move cursor to previous word     |
@@ -254,11 +254,13 @@ Project navigation. An alternate prefix is Command-P.
 
 ## Coding
 
-| Keybinding           | Description                                 | IntelliJ IDEA        | Notes                                      |
-|----------------------|---------------------------------------------|----------------------|--------------------------------------------|
-| <kbd>C-c p c</kbd>   | Run compile on project                      |                      |                                            |
-| <kbd>C-c p P</kbd>   | Run tests on project                        |                      |                                            |
-| <kbd>C-c p t</kbd>   | Toggle between implementation and test file |                      |                                            |
+| Keybinding         | Description                                 | IntelliJ IDEA    |
+|--------------------+---------------------------------------------+------------------|
+| <kbd>C-,</kbd>     | Auto-complete at point                      | <kbd>M-SPC</kbd> |
+| <kbd>C-x C-i</kbd> | List definitions in file and jump           | <kbd>M-F12</kbd> |
+| <kbd>C-c p c</kbd> | Run compile on project                      |                  |
+| <kbd>C-c p P</kbd> | Run tests on project                        |                  |
+| <kbd>C-c p t</kbd> | Toggle between implementation and test file |                  |
 
 ## Smartparens
 
