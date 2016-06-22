@@ -23,6 +23,7 @@ In terms of analogs to IntelliJ, this assumes you are on a Mac and using OS X 10
 - [File Management](#file-management)
 - [Directory Management](#directory-management)
 - [Window Management](#window-management)
+  - [Windmove](#windmove)
 - [Frame Management](#frame-management)
 - [Projectile](#projectile)
 - [File Navigation (NeoTree)](#file-navigation-neotree)
@@ -31,6 +32,9 @@ In terms of analogs to IntelliJ, this assumes you are on a Mac and using OS X 10
 - [Smartparens](#smartparens)
 - [Clojure/CIDER](#clojurecider)
 - [Version Control (Magit)](#version-control-magit)
+- [Org Mode](#org-mode)
+  - [Table Editing](#table-editing)
+- [Eshell](#eshell)
 - [Minibuffer](#minibuffer)
 - [Markdown](#markdown)
 - [Workgroups](#workgroups)
@@ -332,7 +336,7 @@ Project navigation. An alternate prefix is Command-P.
 
 ## Org mode
 
-### Tables
+### Table Editing
 
 | Keybinding            | Description                                       |
 |-----------------------|---------------------------------------------------|
