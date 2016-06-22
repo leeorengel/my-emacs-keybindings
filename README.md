@@ -47,7 +47,7 @@ In terms of analogs to IntelliJ, this assumes you are on a Mac and using OS X 10
 Keybindings for very basic cursor movement.
 
 | Keybinding       | Description                      |
-|------------------+----------------------------------|
+|------------------|----------------------------------|
 | <kbd>C-p</kbd>   | move cursor to previous line     |
 | <kbd>C-n</kbd>   | move cursor to next line         |
 | <kbd>M-b</kbd>   | move cursor to previous word     |
@@ -62,7 +62,7 @@ Keybindings for very basic cursor movement.
 Keybindings for jumping around inside a single buffer.
 
 | Keybinding     | Description                            | Notes             |
-|----------------+----------------------------------------+-------------------|
+|----------------|----------------------------------------+-------------------|
 | <kbd>C-[</kbd> | Previous cursor position within buffer | Custom keybinding |
 | <kbd>C-]</kbd> | Next cursor position within buffer     | Custom keybinding |
 | <kbd>M-<</kbd> | Go to beginning of buffer              |                   |
@@ -75,7 +75,7 @@ Keybindings for jumping around inside a single buffer.
 #### Jumping Around (Key chords with Avy)
 
 | Keybinding    | Description                                                       | Notes |
-|---------------+-------------------------------------------------------------------+-------|
+|---------------|-------------------------------------------------------------------|-------|
 | <kbd>jj</kbd> | Jump to the beginning of a word (`avy-goto-word-1`)               |       |
 | <kbd>jk</kbd> | Jump to character (`avy-goto-char`)                               |       |
 | <kbd>jl</kbd> | Jump to the beginning of a line (`avy-goto-line`)                 |       |
@@ -88,7 +88,7 @@ Keybindings for jumping around inside a single buffer.
 Keybindings for moving in between open buffers.
 
 | Keybinding             | Description          |
-|------------------------+----------------------|
+|------------------------|----------------------|
 | <kbd>C-x <left></kbd>  | Previous buffer/file |
 | <kbd>C-x <right></kbd> | Next buffer/file     |
 
@@ -97,7 +97,7 @@ Keybindings for moving in between open buffers.
 Commands for selecting, cutting, copying and pasting regions of text.
 
 | Keybinding         | Description                                      |
-|--------------------+--------------------------------------------------|
+|--------------------|--------------------------------------------------|
 | <kbd>C-SPACE</kbd> | Mark the beginning of a selection                |
 | <kbd>C-x C-x</kbd> | Toggle between beginning and ending of selection |
 | <kbd>M-w</kbd>     | Copy selection                                   |
@@ -107,7 +107,7 @@ Commands for selecting, cutting, copying and pasting regions of text.
 ### Selection advanced
 
 | Keybinding       | Description         | Notes |
-|------------------+---------------------+-------|
+|------------------|---------------------+-------|
 | <kbd>C-M-@</kbd> | Select s-expression |       |
 | <kbd>C-M-h</kbd> | Select function     |       |
 
@@ -116,7 +116,7 @@ Commands for selecting, cutting, copying and pasting regions of text.
 Keybindings for making changes within a buffer.
 
 | Keybinding             | Description                                              | Notes                                                                 |
-|------------------------+----------------------------------------------------------+-----------------------------------------------------------------------|
+|------------------------|----------------------------------------------------------|-----------------------------------------------------------------------|
 | <kbd>C-/</kbd>         | Undo                                                     |                                                                       |
 | <kbd>C-S-/</kbd>       | Redo                                                     |                                                                       |
 | <kbd>C-x u</kbd>       | Undo tree visualize                                      |                                                                       |
@@ -143,7 +143,7 @@ Keybindings for making changes within a buffer.
 ## Searching/Replacing
 
 | Keybinding       | Description                                |
-|------------------+--------------------------------------------|
+|------------------|--------------------------------------------|
 | <kbd>C-s</kbd>   | Find next occurrence in buffer             |
 | <kbd>C-r</kbd>   | Find previous occurrence in buffer         |
 | <kbd>C-M-s</kbd> | Find next occurrence using regex in buffer |
@@ -153,7 +153,7 @@ Keybindings for making changes within a buffer.
 ## File Management
 
 | Keybinding                    | Description                       | Notes             |
-|-------------------------------+-----------------------------------+-------------------|
+|-------------------------------|-----------------------------------+-------------------|
 | <kbd>C-x b <name> RET</kbd>   | Create a new/open recent buffer   |                   |
 | <kbd>C-x 4 b <name> RET</kbd> | Create a new buffer in new window |                   |
 | <kbd>C-x C-f</kbd>            | Open a file                       |                   |
