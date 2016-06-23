@@ -80,11 +80,9 @@ Keybindings for jumping around inside a single buffer.
 
 | Keybinding    | Description                                                       | Notes |
 |---------------|-------------------------------------------------------------------|-------|
-| <kbd>jj</kbd> | Jump to the beginning of a word (`avy-goto-word-1`)               |       |
-| <kbd>jk</kbd> | Jump to character (`avy-goto-char`)                               |       |
-| <kbd>jl</kbd> | Jump to the beginning of a line (`avy-goto-line`)                 |       |
-| <kbd>JJ</kbd> | Jump to back to previos buffer (`crux-switch-to-previous-buffer`) |       |
-| <kbd>UU</kbd> | View edits as a tree (`undo-tree-visualize`)                      |       |
+| <kbd>jj</kbd> | Jump to the beginning of a word (`avy-goto-char`)                 |       |
+| <kbd>jk</kbd> | Jump to character (`avy-goto-char-2`)                             |       |
+| <kbd>jl</kbd> | Jump to the beginning of a line (`avy-goto-word-1`)               |       |
 | <kbd>xx</kbd> | Executed extended command(`execute-extended-command`)             |       |
 
 ### Across buffers
