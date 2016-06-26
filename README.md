@@ -106,7 +106,7 @@ Commands for selecting, cutting, copying and pasting regions of text.
 | <kbd>M-w</kbd>     | Copy selection                                   |
 | <kbd>C-w</kbd>     | Cut and copy selection                           |
 | <kbd>C-y</kbd>     | Paste (yank from kill ring)                      |
-| <kbd>C-=</kbd>     | Increase region selection (expand-region)        |
+| <kbd>C-=</kbd>     | Increase region selection (via `expand-region`)  |
 
 ### Selection advanced
 
