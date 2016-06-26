@@ -105,6 +105,7 @@ Commands for selecting, cutting, copying and pasting regions of text.
 | <kbd>M-w</kbd>     | Copy selection                                   |
 | <kbd>C-w</kbd>     | Cut and copy selection                           |
 | <kbd>C-y</kbd>     | Paste (yank from kill ring)                      |
+| <kbd>C-=</kbd>     | Increase region selection (expand-region)        |
 
 ### Selection advanced
 
@@ -280,14 +281,15 @@ Project navigation. An alternate prefix is Command-P.
 
 ## Clojure/CIDER
 
-| Keybinding                        | Description                                | Notes |
-|-----------------------------------|--------------------------------------------|-------|
-| <kbd>C-c M-j</kbd>                | Open nREPL in a clojure project            |       |
-| <kbd>,</kbd>                      | Once repl is open, get command keybindings |       |
-| <kbd>C-c C-t n</kbd>              | Run tests in current ns                    |       |
-| <kbd>C-c C-t t</kbd>              | Run a test at the cursor position          |       |
-| <kbd>C-u C-M-x</kbd>              | Start debug session                        |       |
-| <kbd>M-x clojure-cheatsheet</kbd> | Clojure command cheatsheet                 |       |
+| Keybinding                        | Description                                | Notes                                                                 |
+|-----------------------------------|--------------------------------------------|-----------------------------------------------------------------------|
+| <kbd>C-c RET</kbd>                | clj refactor prefix                        | See [commands](https://github.com/clojure-emacs/clj-refactor.el/wiki) |
+| <kbd>C-c M-j</kbd>                | Open nREPL in a clojure project            |                                                                       |
+| <kbd>,</kbd>                      | Once repl is open, get command keybindings |                                                                       |
+| <kbd>C-c C-t n</kbd>              | Run tests in current ns                    |                                                                       |
+| <kbd>C-c C-t t</kbd>              | Run a test at the cursor position          |                                                                       |
+| <kbd>C-u C-M-x</kbd>              | Start debug session                        |                                                                       |
+| <kbd>M-x clojure-cheatsheet</kbd> | Clojure command cheatsheet                 |                                                                       |
 
 ## Jump to Definition (Dumb jump)
 
