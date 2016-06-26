@@ -266,7 +266,7 @@ See [https://github.com/magnars/multiple-cursors.el](https://github.com/magnars/
 ## Coding
 
 | Keybinding         | Description                                 | IntelliJ IDEA    |
-|--------------------+---------------------------------------------+------------------|
+|--------------------|---------------------------------------------|------------------|
 | <kbd>C-,</kbd>     | Auto-complete at point                      | <kbd>M-SPC</kbd> |
 | <kbd>C-x C-i</kbd> | List definitions in file and jump           | <kbd>M-F12</kbd> |
 | <kbd>C-c p c</kbd> | Run compile on project                      |                  |
