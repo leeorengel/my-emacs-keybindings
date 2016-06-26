@@ -227,19 +227,19 @@ Keybindings for making changes within a buffer.
 
 Project navigation. An alternate prefix is Command-P.
 
-| Keybinding           | Description                                 | IntelliJ IDEA                                  | Notes |
-|----------------------|---------------------------------------------|------------------------------------------------|-------|
-| <kbd>C-c p f</kbd>   | Open file in project with completion        | <kbd>Command Shift O</kbd>                     |       |
-| <kbd>C-c p F</kbd>   | Open file in ANY project with completion    |                                                |       |
-| <kbd>C-c p s g</kbd> | Search all files in project using regex     | <kbd>Command Shift F</kbd> with regex checkbox |       |
-| <kbd>C-c p r</kbd>   | Find/replace all files in project           | <kbd>Command Shift F</kbd>                     |       |
-| <kbd>C-c p b</kbd>   | Show all open project buffers               |                                                |       |
-| <kbd>C-c p p</kbd>   | Switch between known projects               |                                                |       |
-| <kbd>C-c p D</kbd>   | Open root project in dired                  |                                                |       |
-| <kbd>C-c p k</kbd>   | Kill all buffers in project                 |                                                |       |
-| <kbd>C-c p e</kbd>   | Show all recent opened files in project     | <kbd>Command E</kbd>                           |       |
-| <kbd>C-c p !</kbd>   | Run shell on root of project as current dir |                                                |       |
-| <kbd>C-c p p</kbd>   | Show all known projects                     |                                                |       |
+| Keybinding                                         | Description                                 | Notes             |
+|----------------------------------------------------|---------------------------------------------|-------------------|
+| <kbd>M-S-o</kbd> (default is <kbd>C-c p f</kbd>)   | Open file in project with completion        | Custom keybinding |
+| <kbd>C-c p F</kbd>                                 | Open file in ANY project with completion    |                   |
+| <kbd>M-S-f</kbd> (default is <kbd>C-c p s s</kbd>) | Search all files in project using regex     | Custom keybinding |
+| <kbd>C-c p r</kbd>                                 | Find/replace all files in project           |                   |
+| <kbd>C-c p b</kbd>                                 | Show all open project buffers               |                   |
+| <kbd>C-c p p</kbd>                                 | Switch between known projects               |                   |
+| <kbd>C-c p D</kbd>                                 | Open root project in dired                  |                   |
+| <kbd>C-c p k</kbd>                                 | Kill all buffers in project                 |                   |
+| <kbd>M-e</kbd> (defualt is <kbd>C-c p e</kbd>)     | Show all recent opened files in project     | Custom keybinding |
+| <kbd>C-c p !</kbd>                                 | Run shell on root of project as current dir |                   |
+| <kbd>C-c p p</kbd>                                 | Show all known projects                     |                   |
 
 ## File Navigation (NeoTree)
 
@@ -349,6 +349,26 @@ See [https://github.com/magnars/multiple-cursors.el](https://github.com/magnars/
 | <kbd>!ls</kbd>     | Repeats the last commnd starting with ls      |
 
 ## Org mode
+
+### TODO Lists
+
+| Keybinding                                | Description                                     |
+|-------------------------------------------|-------------------------------------------------|
+| <kbd>C-c C-p</kbd>                        | Move up a heading                               |
+| <kbd>C-c C-n</kbd>                        | Move down a heading                             |
+| <kbd>C-c C-b</kbd>                        | Move up a heading, same level                   |
+| <kbd>C-c C-f</kbd>                        | Move down a heading, same level                 |
+| <kbd>TAB</kbd>                            | Toggle heading open/closed states               |
+| <kbd>S-TAB</kbd>                          | Toggle entire buffer heading open/closed states |
+| <kbd>M-<down></kbd>                       | Move heading down                               |
+| <kbd>M-<up></kbd>                         | Move heading up                                 |
+| <kbd>M-<left></kbd>                       | Promote heading                                 |
+| <kbd>M-<right></kbd>                      | Demote heading                                  |
+| <kbd>C-RET</kbd>                          | New heading                                     |
+| <kbd>M-RET</kbd>                          | New list item entry                             |
+| <kbd>/</kbd>                              | Search inside org mode                          |
+| <kbd>C-c -</kbd>                          | Cycle item type                                 |
+| <kbd>S-<left></kbd>, <kbd>S-<right></kbd> | Cycle state of `TODO` item                      |
 
 ### Table Editing
 
