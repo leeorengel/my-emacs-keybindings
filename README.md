@@ -34,6 +34,7 @@ In terms of analogs to IntelliJ, this assumes you are on a Mac and using OS X 10
 + [Clojure/CIDER](#clojurecider)
 + [Version Control (Magit)](#version-control-magit)
 + [Org Mode](#org-mode)
+  - [TODO Lists](#todo-lists)
   - [Table Editing](#table-editing)
 + [Eshell](#eshell)
 + [Minibuffer](#minibuffer)
@@ -230,14 +231,14 @@ Project navigation. An alternate prefix is Command-P.
 | Keybinding                                         | Description                                 | Notes             |
 |----------------------------------------------------|---------------------------------------------|-------------------|
 | <kbd>M-S-o</kbd> (default is <kbd>C-c p f</kbd>)   | Open file in project with completion        | Custom keybinding |
-| <kbd>C-c p F</kbd>                                 | Open file in ANY project with completion    |                   |
 | <kbd>M-S-f</kbd> (default is <kbd>C-c p s s</kbd>) | Search all files in project using regex     | Custom keybinding |
+| <kbd>M-e</kbd> (defualt is <kbd>C-c p e</kbd>)     | Show all recent opened files in project     | Custom keybinding |
+| <kbd>C-c p F</kbd>                                 | Open file in ANY project with completion    |                   |
 | <kbd>C-c p r</kbd>                                 | Find/replace all files in project           |                   |
 | <kbd>C-c p b</kbd>                                 | Show all open project buffers               |                   |
 | <kbd>C-c p p</kbd>                                 | Switch between known projects               |                   |
 | <kbd>C-c p D</kbd>                                 | Open root project in dired                  |                   |
 | <kbd>C-c p k</kbd>                                 | Kill all buffers in project                 |                   |
-| <kbd>M-e</kbd> (defualt is <kbd>C-c p e</kbd>)     | Show all recent opened files in project     | Custom keybinding |
 | <kbd>C-c p !</kbd>                                 | Run shell on root of project as current dir |                   |
 | <kbd>C-c p p</kbd>                                 | Show all known projects                     |                   |
 
