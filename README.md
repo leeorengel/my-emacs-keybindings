@@ -27,6 +27,7 @@ In terms of analogs to IntelliJ, this assumes you are on a Mac and using OS X 10
 + [Frame Management](#frame-management)
 + [Projectile](#projectile)
 + [File Navigation (NeoTree)](#file-navigation-neotree)
++ [Multiple Cursors](#multiple-cursors)
 + [Coding](#coding)
 + [Jump to Definition (Dumb jump)](#jump-to-definition-dumb-jump)
 + [Smartparens](#smartparens)
@@ -250,6 +251,17 @@ Project navigation. An alternate prefix is Command-P.
 | <kbd>C-c C-r</kbd> | Rename a file or a directory                       | (when in neotree buffer) |
 | <kbd>g</kbd>       | Refresh project explorer                           | (when in neotree buffer) |
 | <kbd>H</kbd>       | Toggle showing hidden files                        | (when in neotree buffer) |
+
+## Multiple Cursors
+
+See [https://github.com/magnars/multiple-cursors.el](https://github.com/magnars/multiple-cursors.el)
+
+| Keybindings            | Description                                  | Notes              |
+|------------------------|----------------------------------------------|--------------------|
+| <kbd>C-S-c C-S-c</kbd> | Mark consecutive lines with multiple cursors | First select lines |
+| <kbd>C-<</kbd>         | Mark previous occurrence of word             | First select word  |
+| <kbd>C-></kbd>         | Mark next occurrence of word                 | First select word  |
+| <kbd>C-c C-<</kbd>     | Mark all occurrences like selection          |                    |
 
 ## Coding
 
