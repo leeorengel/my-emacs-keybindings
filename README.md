@@ -361,10 +361,10 @@ See [https://github.com/magnars/multiple-cursors.el](https://github.com/magnars/
 | <kbd>C-c C-f</kbd>                        | Move down a heading, same level                 |
 | <kbd>TAB</kbd>                            | Toggle heading open/closed states               |
 | <kbd>S-TAB</kbd>                          | Toggle entire buffer heading open/closed states |
-| <kbd>M-<down></kbd>                       | Move heading down                               |
-| <kbd>M-<up></kbd>                         | Move heading up                                 |
-| <kbd>M-<left></kbd>                       | Promote heading                                 |
-| <kbd>M-<right></kbd>                      | Demote heading                                  |
+| <kbd>M-\<down\></kbd>                     | Move heading down                               |
+| <kbd>M-\<up\></kbd>                       | Move heading up                                 |
+| <kbd>M-\<left\></kbd>                     | Promote heading                                 |
+| <kbd>M-\<right\></kbd>                    | Demote heading                                  |
 | <kbd>C-RET</kbd>                          | New heading                                     |
 | <kbd>M-RET</kbd>                          | New list item entry                             |
 | <kbd>/</kbd>                              | Search inside org mode                          |
@@ -373,22 +373,22 @@ See [https://github.com/magnars/multiple-cursors.el](https://github.com/magnars/
 
 ### Table Editing
 
-| Keybinding            | Description                                       |
-|-----------------------|---------------------------------------------------|
-| <kbd>C-c \vert</kbd>  | Convert active region into a table                |
-| <kbd>C-c C-c          | Re-align table                                    |
-| <kbd>TAB</kbd>        | Re-align the table and move to the next field     |
-| <kbd>S-TAB</kbd>      | Re-align the table and move to the previous field |
-| <kbd>\vert RET</kbd>  | Insert new column to the right                    |
-| <kbd>RET</kbd>        | Re-align the table and move to the next row       |
-| <kbd>C-c SPC</kbd>    | Blank the table cell at cursor                    |
-| <kbd>C-c -</kbd>      | Insert a horizontal rule on next line             |
-| <kbd>M-<left></kbd>   | Move column at cursor to the left                 |
-| <kbd>M-<right></kbd>  | Move column at cursor to the right                |
-| <kbd>M-S<left></kbd>  | kill current column                               |
-| <kbd>M-S<right></kbd> | Insert a new column to the left of the cursor     |
-| <kbd>M-S<up></kbd>    | Kill the current table row                        |
-| <kbd>M-S<down></kbd>  | Insert new row above current row                  |
+| Keybinding               | Description                                       |
+|--------------------------|---------------------------------------------------|
+| <kbd>C-c \vert</kbd>     | Convert active region into a table                |
+| <kbd>C-c C-c             | Re-align table                                    |
+| <kbd>TAB</kbd>           | Re-align the table and move to the next field     |
+| <kbd>S-TAB</kbd>         | Re-align the table and move to the previous field |
+| <kbd>\vert RET</kbd>     | Insert new column to the right                    |
+| <kbd>RET</kbd>           | Re-align the table and move to the next row       |
+| <kbd>C-c SPC</kbd>       | Blank the table cell at cursor                    |
+| <kbd>C-c -</kbd>         | Insert a horizontal rule on next line             |
+| <kbd>M-\<left\></kbd>    | Move column at cursor to the left                 |
+| <kbd>M-\<right\></kbd>   | Move column at cursor to the right                |
+| <kbd>M-S-\<left\></kbd>  | kill current column                               |
+| <kbd>M-S-\<right\></kbd> | Insert a new column to the left of the cursor     |
+| <kbd>M-S-\<up\></kbd>    | Kill the current table row                        |
+| <kbd>M-S-\<down\></kbd>  | Insert new row above current row                  |
 
 ## Help
 
