@@ -375,11 +375,11 @@ See [https://github.com/magnars/multiple-cursors.el](https://github.com/magnars/
 
 | Keybinding               | Description                                       |
 |--------------------------|---------------------------------------------------|
-| <kbd>C-c \\vert</kbd>    | Convert active region into a table                |
+| <kbd>C-c &#124;</kbd>    | Convert active region into a table                |
 | <kbd>C-c C-c             | Re-align table                                    |
 | <kbd>TAB</kbd>           | Re-align the table and move to the next field     |
 | <kbd>S-TAB</kbd>         | Re-align the table and move to the previous field |
-| <kbd>\\vert RET</kbd>    | Insert new column to the right                    |
+| <kbd>&#124; RET</kbd>    | Insert new column to the right                    |
 | <kbd>RET</kbd>           | Re-align the table and move to the next row       |
 | <kbd>C-c SPC</kbd>       | Blank the table cell at cursor                    |
 | <kbd>C-c -</kbd>         | Insert a horizontal rule on next line             |
