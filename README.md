@@ -180,6 +180,7 @@ Keybindings for making changes within a buffer.
 | <kbd>v</kbd>                          | View file                                         |       |
 | <kbd>^</kbd>                          | Go up to parent directory                         |       |
 | <kbd>d</kbd>                          | Mark file for deletion                            |       |
+| <kbd>x</kbd>                          | Delete files marked for deletion                  |       |
 | <kbd>q</kbd>                          | Quit                                              |       |
 | <kbd>+</kbd>                          | Create directory                                  |       |
 | <kbd>=</kbd>                          | Compare file at point with previously marked file |       |
