@@ -252,6 +252,11 @@ Project navigation. An alternate prefix is Command-P.
 | <kbd>C-c C-d</kbd> | Delete a file or a directory                       | (when in neotree buffer) |
 | <kbd>C-c C-r</kbd> | Rename a file or a directory                       | (when in neotree buffer) |
 | <kbd>g</kbd>       | Refresh project explorer                           | (when in neotree buffer) |
+| <kbd>U</kbd>       | Go up one node in tree                             | (when in neotree buffer) |
+| <kbd>D</kbd>       | Go down one node in tree                           | (when in neotree buffer) |
+| <kbd>A</kbd>       | Toggle widening explorer window                    | (when in neotree buffer) |
+| <kbd>S</kbd>       | Go to previous sibling node in tree                | (when in neotree buffer) |
+| <kbd>s</kbd>       | Go to next sibling node in tree                    | (when in neotree buffer) |
 | <kbd>H</kbd>       | Toggle showing hidden files                        | (when in neotree buffer) |
 
 ## Multiple Cursors
