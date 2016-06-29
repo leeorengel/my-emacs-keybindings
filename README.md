@@ -248,6 +248,9 @@ Project navigation. An alternate prefix is Command-P.
 | Keybinding         | Description                                        | Notes                    |
 |--------------------|----------------------------------------------------|--------------------------|
 | <kbd>\<f8\></kbd>  | Toggle project explorer                            |                          |
+| <kbd>RET</kbd>     | Open file in main window                           | (when in neotree buffer) |
+| <kbd>&#124;</kbd>  | Open file in vertical split                        | (when in neotree buffer) |
+| <kbd>-</kbd>       | Open file in horizontal split                      | (when in neotree buffer) |
 | <kbd>C-c C-n</kbd> | Create a new file or dir if filename ends with '/' | (when in neotree buffer) |
 | <kbd>C-c C-d</kbd> | Delete a file or a directory                       | (when in neotree buffer) |
 | <kbd>C-c C-r</kbd> | Rename a file or a directory                       | (when in neotree buffer) |
