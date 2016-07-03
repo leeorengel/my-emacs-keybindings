@@ -101,13 +101,14 @@ Keybindings for moving in between open buffers.
 Commands for selecting, cutting, copying and pasting regions of text.
 
 | Keybinding         | Description                                      |
-|--------------------|--------------------------------------------------|
+|--------------------+--------------------------------------------------|
 | <kbd>C-SPACE</kbd> | Mark the beginning of a selection                |
 | <kbd>C-x C-x</kbd> | Toggle between beginning and ending of selection |
 | <kbd>M-w</kbd>     | Copy selection                                   |
 | <kbd>C-w</kbd>     | Cut and copy selection                           |
 | <kbd>C-y</kbd>     | Paste (yank from kill ring)                      |
 | <kbd>C-=</kbd>     | Increase region selection (via `expand-region`)  |
+| <kbd>C-x h</kbd>   | Select entire buffer region                      |
 
 ### Selection advanced
 
@@ -208,12 +209,12 @@ Keybindings for making changes within a buffer.
 
 ### Windmove
 
-| Keybinding           | Description                                   |
-|----------------------|-----------------------------------------------|
-| <kbd>S-<left></kbd>  | Move to window to the left of current window  |
-| <kbd>S-<right></kbd> | Move to window to the right of current window |
-| <kbd>S-<up></kbd>    | Move to window above current window           |
-| <kbd>S-<down></kbd>  | Move to window below current window           |
+| Keybinding             | Description                                   |
+|------------------------|-----------------------------------------------|
+| <kbd>S-\<left\></kbd>  | Move to window to the left of current window  |
+| <kbd>S-\<right\></kbd> | Move to window to the right of current window |
+| <kbd>S-\<up\></kbd>    | Move to window above current window           |
+| <kbd>S-\<down\></kbd>  | Move to window below current window           |
 
 ## Frame Management
 
