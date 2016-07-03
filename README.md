@@ -101,7 +101,7 @@ Keybindings for moving in between open buffers.
 Commands for selecting, cutting, copying and pasting regions of text.
 
 | Keybinding         | Description                                      |
-|--------------------+--------------------------------------------------|
+|--------------------|--------------------------------------------------|
 | <kbd>C-SPACE</kbd> | Mark the beginning of a selection                |
 | <kbd>C-x C-x</kbd> | Toggle between beginning and ending of selection |
 | <kbd>M-w</kbd>     | Copy selection                                   |
