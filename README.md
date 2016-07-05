@@ -286,6 +286,8 @@ See [https://github.com/magnars/multiple-cursors.el](https://github.com/magnars/
 
 ## Smartparens
 
+Using base keybindings for paredit. Smartparens annoyingly hijacks various emacs keybindings in a way I don't like (e.g. M-DEL for kill word backwards)
+
 | Keybinding                    | Description                                                                     | Notes                                                                                                  |
 |-------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | <kbd>C-M-b</kbd>              | Move backward one s-expression                                                  | Must be on a paren, otherwise behaves like backward word                                               |
@@ -297,8 +299,8 @@ See [https://github.com/magnars/multiple-cursors.el](https://github.com/magnars/
 | <kbd>C-)</kbd>,<kbd>C-}</kbd> | Pull in or out next word/s-expression into current s-expression                 |                                                                                                        |
 | <kbd>M-S</kbd>                | Split current s-expression into two separate ones with cursor as split point    |                                                                                                        |
 | <kbd>M-s</kbd>                | Remove parens immediately surrounding cursor point                              |                                                                                                        |
-| <kbd>M-[up arrow]</kbd>       | Remove all chars before cursor point inside s-expression and surrounding parens |                                                                                                        |
-| <kbd>M-[down arrow]</kbd>     | Remove all chars after cursor point inside s-expression and surrounding parens  |                                                                                                        |
+| <kbd>M-\<up\></kbd>           | Remove all chars before cursor point inside s-expression and surrounding parens |                                                                                                        |
+| <kbd>M-\<down\></kbd>         | Remove all chars after cursor point inside s-expression and surrounding parens  |                                                                                                        |
 | <kbd>M-r</kbd>                | Remove all chars around cursor point inside s-expression and surrounding parens |                                                                                                        |
 
 
