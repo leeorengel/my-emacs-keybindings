@@ -29,9 +29,9 @@ In terms of analogs to IntelliJ, this assumes you are on a Mac and using OS X 10
 + [File Navigation (NeoTree)](#file-navigation-neotree)
 + [Multiple Cursors](#multiple-cursors)
 + [Coding](#coding)
-+ [Jump to Definition (Dumb jump)](#jump-to-definition-dumb-jump)
 + [Smartparens](#smartparens)
-+ [Clojure/CIDER](#clojurecider)
++ [Clojure](#clojure)
++ [CIDER](#cider)
 + [Version Control (Magit)](#version-control-magit)
 + [Org Mode](#org-mode)
   - [TODO Lists](#todo-lists)
@@ -302,24 +302,33 @@ See [https://github.com/magnars/multiple-cursors.el](https://github.com/magnars/
 | <kbd>M-r</kbd>                | Remove all chars around cursor point inside s-expression and surrounding parens |                                                                                                        |
 
 
-## Clojure/CIDER
+## Clojure
 
-| Keybinding                        | Description                                | Notes                                                                 |
-|-----------------------------------|--------------------------------------------|-----------------------------------------------------------------------|
-| <kbd>C-c RET</kbd>                | clj refactor prefix                        | See [commands](https://github.com/clojure-emacs/clj-refactor.el/wiki) |
-| <kbd>C-c M-j</kbd>                | Open nREPL in a clojure project            |                                                                       |
-| <kbd>,</kbd>                      | Once repl is open, get command keybindings |                                                                       |
-| <kbd>C-c C-t n</kbd>              | Run tests in current ns                    |                                                                       |
-| <kbd>C-c C-t t</kbd>              | Run a test at the cursor position          |                                                                       |
-| <kbd>C-u C-M-x</kbd>              | Start debug session                        |                                                                       |
-| <kbd>M-x clojure-cheatsheet</kbd> | Clojure command cheatsheet                 |                                                                       |
+| Keybinding                        | Description                | Notes                                                                 |
+|-----------------------------------|----------------------------|-----------------------------------------------------------------------|
+| <kbd>C-c RET</kbd>                | clj refactor prefix        | See [commands](https://github.com/clojure-emacs/clj-refactor.el/wiki) |
+| <kbd>M-x clojure-cheatsheet</kbd> | Clojure command cheatsheet |                                                                       |
 
-## Jump to Definition (Dumb jump)
+## CIDER
 
-| Keybinding       | Description                      | Notes |
-|------------------|----------------------------------|-------|
-| <kbd>C-M-g</kbd> | Jump to definition               |       |
-| <kbd>C-M-q</kbd> | Jump to definition (with dialog) |       |
+| Keybinding           | Description                                                                    | Notes |
+|----------------------|--------------------------------------------------------------------------------|-------|
+| <kbd>C-c M-j</kbd>   | Cider jack-in, opens nREPL in a clojure project                                |       |
+| <kbd>C-c C-k</kbd>   | Load (eval) the current buffer                                                 |       |
+| <kbd>C-c C-e</kbd>   | Eval form before current cursor position                                       |       |
+| <kbd>C-c C-v v</kbd> | Eval form around current cursor position                                       |       |
+| <kbd>C-c C-v r</kbd> | Eval the region and display result in echo area                                |       |
+| <kbd>C-c C-v n</kbd> | Eval the entire current namespace                                              |       |
+| <kbd>C-c C-z</kbd>   | Switch the REPL buffer                                                         |       |
+| <kbd>C-c M-z</kbd>   | Load (eval) the current buffer and switch to the REPL buffer                   |       |
+| <kbd>C-c M-n</kbd>   | Switch the namespace of the REPL buffer to the namespace of the current buffer |       |
+| <kbd>C-c C-x</kbd>   | Reload all modified files on the classpath                                     |       |
+| <kbd>C-c C-t n</kbd> | Run tests in current ns                                                        |       |
+| <kbd>C-c C-t t</kbd> | Run a test at the cursor position                                              |       |
+| <kbd>C-u C-M-x</kbd> | Start debug session                                                            |       |
+| <kbd>C-c C-d d</kbd> | Display doc string for the symbol at point                                     |       |
+| <kbd>C-c C-.</kbd>   | Jump to some namespace on the classpath                                        |       |
+| <kbd>,</kbd>         | Once repl is open, get command keybindings                                     |       |
 
 ## Version Control (Magit)
 
