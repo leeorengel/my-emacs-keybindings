@@ -52,18 +52,18 @@ In terms of analogs to IntelliJ, this assumes you are on a Mac and using OS X 10
 
 Keybindings for very basic cursor movement.
 
-| Keybinding       | Description                            | Notes                                 |
-|------------------|----------------------------------------|---------------------------------------|
-| <kbd>C-p</kbd>   | move cursor to previous line           |                                       |
-| <kbd>C-S-p</kbd> | move cursor up 5 lines (e.g. faster)   | Custom keybinding courtest of magnars |
-| <kbd>C-n</kbd>   | move cursor to next line               |                                       |
-| <kbd>C-S-n</kbd> | move cursor down 5 lines (e.g. faster) | Custom keybinding courtest of magnars |
-| <kbd>M-b</kbd>   | move cursor to previous word           |                                       |
-| <kbd>M-f</kbd>   | move cursor to next word               |                                       |
-| <kbd>C-M-b</kbd> | move cursor to next s-expression       |                                       |
-| <kbd>C-M-f</kbd> | move cursor to next s-expression       |                                       |
-| <kbd>C-a</kbd>   | Go to beginning of line                |                                       |
-| <kbd>C-e</kbd>   | Go to end of line                      |                                       |
+| Keybinding       | Description                            | Notes                                                                                                                |
+|------------------+----------------------------------------+----------------------------------------------------------------------------------------------------------------------|
+| <kbd>C-p</kbd>   | move cursor to previous line           |                                                                                                                      |
+| <kbd>C-S-p</kbd> | move cursor up 5 lines (e.g. faster)   | Custom keybinding courtesy of [magnars](https://github.com/magnars/.emacs.d/blob/master/settings/key-bindings.el#L216) |
+| <kbd>C-n</kbd>   | move cursor to next line               |                                                                                                                      |
+| <kbd>C-S-n</kbd> | move cursor down 5 lines (e.g. faster) | Custom keybinding courtesy of [magnars](https://github.com/magnars/.emacs.d/blob/master/settings/key-bindings.el#L216) |
+| <kbd>M-b</kbd>   | move cursor to previous word           |                                                                                                                      |
+| <kbd>M-f</kbd>   | move cursor to next word               |                                                                                                                      |
+| <kbd>C-M-b</kbd> | move cursor to next s-expression       |                                                                                                                      |
+| <kbd>C-M-f</kbd> | move cursor to next s-expression       |                                                                                                                      |
+| <kbd>C-a</kbd>   | Go to beginning of line                |                                                                                                                      |
+| <kbd>C-e</kbd>   | Go to end of line                      |                                                                                                                      |
 
 #### Jumping Around
 
