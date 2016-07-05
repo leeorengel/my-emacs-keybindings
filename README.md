@@ -53,7 +53,7 @@ In terms of analogs to IntelliJ, this assumes you are on a Mac and using OS X 10
 Keybindings for very basic cursor movement.
 
 | Keybinding       | Description                            | Notes                                 |
-|------------------+----------------------------------------+---------------------------------------|
+|------------------|----------------------------------------|---------------------------------------|
 | <kbd>C-p</kbd>   | move cursor to previous line           |                                       |
 | <kbd>C-S-p</kbd> | move cursor up 5 lines (e.g. faster)   | Custom keybinding courtest of magnars |
 | <kbd>C-n</kbd>   | move cursor to next line               |                                       |
