@@ -30,6 +30,8 @@ In terms of analogs to IntelliJ, this assumes you are on a Mac and using OS X 10
 + [Multiple Cursors](#multiple-cursors)
 + [Coding](#coding)
 + [Smartparens](#smartparens)
+  - [Navigation](#smartparens-navigation)
+  - [Editing](#smartparens-editing)
 + [Clojure](#clojure)
 + [CIDER](#cider)
 + [Version Control (Magit)](#version-control-magit)
@@ -290,6 +292,8 @@ See [https://github.com/magnars/multiple-cursors.el](https://github.com/magnars/
 
 Using base keybindings for paredit. Smartparens annoyingly hijacks various emacs keybindings in a way I don't like (e.g. M-DEL for kill word backwards)
 
+### Smartparens Navigation
+
 | Keybinding                    | Description                                                                     | Notes                                                                                                  |
 |-------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | <kbd>C-M-b</kbd>              | Move backward one s-expression                                                  | Must be on a paren, otherwise behaves like backward word                                               |
@@ -297,13 +301,19 @@ Using base keybindings for paredit. Smartparens annoyingly hijacks various emacs
 | <kbd>C-M-d</kbd>              | Move down to next nested s-expression                                           |                                                                                                        |
 | <kbd>C-M-n</kbd>              | Move up s-expression                                                            |                                                                                                        |
 | <kbd>C-M-u</kbd>              | Move up one level in nested s-expression                                        | Requires fix for OSX interception of the keybinding (see http://emacs.stackexchange.com/a/20544/11397) |
+
+
+### Smartparens Editing
+
+| Keybinding                    | Description                                                                     | Notes                                                                                                  |
+|-------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| <kbd>M-s</kbd>                | Remove parens immediately surrounding cursor point                              |                                                                                                        |
 | <kbd>C-(</kbd>,<kbd>C-{</kbd> | Pull in or out previous word/s-expression into current s-expression             |                                                                                                        |
 | <kbd>C-)</kbd>,<kbd>C-}</kbd> | Pull in or out next word/s-expression into current s-expression                 |                                                                                                        |
-| <kbd>M-S</kbd>                | Split current s-expression into two separate ones with cursor as split point    |                                                                                                        |
-| <kbd>M-s</kbd>                | Remove parens immediately surrounding cursor point                              |                                                                                                        |
 | <kbd>M-\<up\></kbd>           | Remove all chars before cursor point inside s-expression and surrounding parens |                                                                                                        |
 | <kbd>M-\<down\></kbd>         | Remove all chars after cursor point inside s-expression and surrounding parens  |                                                                                                        |
 | <kbd>M-r</kbd>                | Remove all chars around cursor point inside s-expression and surrounding parens |                                                                                                        |
+| <kbd>M-S</kbd>                | Split current s-expression into two separate ones with cursor as split point    |                                                                                                        |
 
 
 ## Clojure
