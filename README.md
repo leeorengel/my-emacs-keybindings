@@ -307,6 +307,7 @@ Using base keybindings for paredit. Smartparens annoyingly hijacks various emacs
 
 | Keybinding                    | Description                                                                     | Notes                                                                                                  |
 |-------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| <kbd>(</kbd>                  | Wrap currently selected region with parens                                      | Use with `expand-region`                                                                               |
 | <kbd>M-s</kbd>                | Remove parens immediately surrounding cursor point                              |                                                                                                        |
 | <kbd>C-(</kbd>,<kbd>C-{</kbd> | Pull in or out previous word/s-expression into current s-expression             |                                                                                                        |
 | <kbd>C-)</kbd>,<kbd>C-}</kbd> | Pull in or out next word/s-expression into current s-expression                 |                                                                                                        |
