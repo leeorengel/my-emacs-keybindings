@@ -344,6 +344,7 @@ Using base keybindings for paredit. Smartparens annoyingly hijacks various emacs
 | <kbd>C-c C-d d</kbd> | Display doc string for the symbol at point                                     |       |
 | <kbd>C-c C-.</kbd>   | Jump to some namespace on the classpath                                        |       |
 | <kbd>,</kbd>         | Once repl is open, get command keybindings                                     |       |
+| <kbd>C-c C-q</kbd>   | Quit current REPL session                                                      |       |
 
 ## Version Control (Magit)
 
