@@ -315,6 +315,7 @@ Using base keybindings for paredit. Smartparens annoyingly hijacks various emacs
 | <kbd>M-\<down\></kbd>         | Remove all chars after cursor point inside s-expression and surrounding parens  |                                                                                                        |
 | <kbd>M-r</kbd>                | Remove all chars around cursor point inside s-expression and surrounding parens |                                                                                                        |
 | <kbd>M-S</kbd>                | Split current s-expression into two separate ones with cursor as split point    |                                                                                                        |
+| <kbd>C-M-t</kbd>              | When cursor is placed between s-expressions, swaps (transposes) their positions |                                                                                                        |
 
 
 ## Clojure
