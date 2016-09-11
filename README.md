@@ -1,7 +1,5 @@
 # My Emacs keybindings
 
-Essential keybindings to help users learning emacs coming from intelliJ IDEA or the Jetbrains family of IDE's.
-
 This page assumes you are using my emacs config at http://github.com/leeorengel/.emacs.d
 
 This page has been organized roughly in order of importance in terms of the minimum keybindings you need to know to get going in emacs. Subsequent sections include more advanced groupings of keybindings.
@@ -17,6 +15,7 @@ In terms of analogs to IntelliJ, this assumes you are on a Mac and using OS X 10
     - [Jumping Around (Key Chords with Avy)](#jumping-around-key-chords-with-avy)
   - [Across buffers](#across-buffers)
 + [Selection/Copy/Paste](#selectioncopypaste)
+  - [Expand-region](#expand-region)
   - [Advanced](#selection-advanced)
 + [Editing](#editing)
 + [Searching/Replacing](#searchingreplacing)
@@ -54,33 +53,35 @@ In terms of analogs to IntelliJ, this assumes you are on a Mac and using OS X 10
 
 Keybindings for very basic cursor movement.
 
-| Keybinding       | Description                            | Notes                                                                                                                |
-|------------------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| <kbd>C-p</kbd>   | move cursor to previous line           |                                                                                                                      |
-| <kbd>C-S-p</kbd> | move cursor up 5 lines (e.g. faster)   | Custom keybinding courtesy of [magnars](https://github.com/magnars/.emacs.d/blob/master/settings/key-bindings.el#L216) |
-| <kbd>C-n</kbd>   | move cursor to next line               |                                                                                                                      |
-| <kbd>C-S-n</kbd> | move cursor down 5 lines (e.g. faster) | Custom keybinding courtesy of [magnars](https://github.com/magnars/.emacs.d/blob/master/settings/key-bindings.el#L216) |
-| <kbd>M-b</kbd>   | move cursor to previous word           |                                                                                                                      |
-| <kbd>M-f</kbd>   | move cursor to next word               |                                                                                                                      |
-| <kbd>C-M-b</kbd> | move cursor to next s-expression       |                                                                                                                      |
-| <kbd>C-M-f</kbd> | move cursor to next s-expression       |                                                                                                                      |
-| <kbd>C-a</kbd>   | Go to beginning of line                |                                                                                                                      |
-| <kbd>C-e</kbd>   | Go to end of line                      |                                                                                                                      |
+| Keybinding       | Spacemacs Keybinding | Description                            | Notes                                                                                                                  |
+|------------------+----------------------+----------------------------------------+------------------------------------------------------------------------------------------------------------------------|
+| <kbd>C-p</kbd>   | <kbd>k</kbd>         | move cursor to previous line           |                                                                                                                        |
+| <kbd>C-b</kbd>   | <kbd>h</kbd>         | move cursor backward  one character    |                                                                                                                        |
+| <kbd>C-f</kbd>   | <kbd>l</kbd>         | move cursor forward one character      |                                                                                                                        |
+| <kbd>C-n</kbd>   | <kbd>j</kbd>         | move cursor to next line               |                                                                                                                        |
+| <kbd>C-S-p</kbd> |                      | move cursor up 5 lines (e.g. faster)   | Custom keybinding courtesy of [magnars](https://github.com/magnars/.emacs.d/blob/master/settings/key-bindings.el#L216) |
+| <kbd>C-S-n</kbd> |                      | move cursor down 5 lines (e.g. faster) | Custom keybinding courtesy of [magnars](https://github.com/magnars/.emacs.d/blob/master/settings/key-bindings.el#L216) |
+| <kbd>M-b</kbd>   | <kbd>B</kbd>         | move cursor to previous word           |                                                                                                                        |
+| <kbd>M-f</kbd>   | <kbd>w</kbd>         | move cursor to next word               |                                                                                                                        |
+| <kbd>C-M-b</kbd> | <kbd>(</kbd>         | move cursor to previous  s-expression  |                                                                                                                        |
+| <kbd>C-M-f</kbd> | <kbd>)</kbd>         | move cursor to next s-expression       |                                                                                                                        |
+| <kbd>C-a</kbd>   | <kbd>^</kbd>         | Go to beginning of line                |                                                                                                                        |
+| <kbd>C-e</kbd>   | <kbd>$</kbd>         | Go to end of line                      |                                                                                                                        |
 
 #### Jumping Around
 
 Keybindings for jumping around inside a single buffer.
 
-| Keybinding     | Description                            | Notes             |
-|----------------|----------------------------------------|-------------------|
-| <kbd>C-[</kbd> | Previous cursor position within buffer | Custom keybinding |
-| <kbd>C-]</kbd> | Next cursor position within buffer     | Custom keybinding |
-| <kbd>M-<</kbd> | Go to beginning of buffer              |                   |
-| <kbd>M-></kbd> | Go to end of buffer                    |                   |
-| <kbd>M-l</kbd> | Go to line number                      | Custom keybinding |
-| <kbd>C-l</kbd> | Center screen at cursor/point          |                   |
-| <kbd>M-v</kbd> | Scroll to previous screen              |                   |
-| <kbd>C-v</kbd> | Scroll to next screen                  |                   |
+| Keybinding     | Spacemace Keybinding | Description                            | Notes             |
+|----------------+----------------------+----------------------------------------+-------------------|
+| <kbd>C-[</kbd> | <kbd></kbd>          | Previous cursor position within buffer | Custom keybinding |
+| <kbd>C-]</kbd> | <kbd></kbd>          | Next cursor position within buffer     | Custom keybinding |
+| <kbd>M-<</kbd> | <kbd></kbd>          | Go to beginning of buffer              |                   |
+| <kbd>M-></kbd> | <kbd></kbd>          | Go to end of buffer                    |                   |
+| <kbd>M-l</kbd> | <kbd>G</kbd>         | Go to line number                      | Custom keybinding |
+| <kbd>C-l</kbd> | <kbd>M</kbd>         | Center screen at cursor/point          |                   |
+| <kbd>M-v</kbd> |                      | Scroll to previous screen              |                   |
+| <kbd>C-v</kbd> |                      | Scroll to next screen                  |                   |
 
 #### Jumping Around (Key chords with Avy)
 
@@ -104,15 +105,23 @@ Keybindings for moving in between open buffers.
 
 Commands for selecting, cutting, copying and pasting regions of text.
 
-| Keybinding         | Description                                      |
-|--------------------|--------------------------------------------------|
-| <kbd>C-SPACE</kbd> | Mark the beginning of a selection                |
-| <kbd>C-x C-x</kbd> | Toggle between beginning and ending of selection |
-| <kbd>M-w</kbd>     | Copy selection                                   |
-| <kbd>C-w</kbd>     | Cut and copy selection                           |
-| <kbd>C-y</kbd>     | Paste (yank from kill ring)                      |
-| <kbd>C-=</kbd>     | Increase region selection (via `expand-region`)  |
-| <kbd>C-x h</kbd>   | Select entire buffer region                      |
+| Keybinding         | Spacemacs keybinding | Description                                      |
+|--------------------+----------------------+--------------------------------------------------|
+| <kbd>C-SPACE</kbd> | <kbd></kbd>          | Mark the beginning of a selection                |
+| <kbd>C-x C-x</kbd> |                      | Toggle between beginning and ending of selection |
+| <kbd>M-w</kbd>     |                      | Copy selection                                   |
+| <kbd>C-w</kbd>     |                      | Cut and copy selection                           |
+| <kbd>C-y</kbd>     |                      | Paste (yank from kill ring)                      |
+| <kbd>C-x h</kbd>   |                      | Select entire buffer region                      |
+
+## Expand Region
+
+| Keybinding     | Spacemacs keybinding | Description                           |
+| <kbd>C-=</kbd> | <kbd>SPC v</kbd>     | Initiate expand region                |
+| <kbd>C-=</kbd> | <kbd>v</kbd>         | Expend region by semantic unit        |
+| <kbd>C--<kbd>  | <kbd>V</kbd>         | Contract region by semantic unit      |
+|                | <kbd>r</kbd>         | Reset the region to initial selection |
+| <kbd>C-g</kbd> | <kbd>ESC</kbd>       | Leave expand-region mode              |
 
 ### Selection advanced
 
@@ -125,20 +134,20 @@ Commands for selecting, cutting, copying and pasting regions of text.
 
 Keybindings for making changes within a buffer.
 
-| Keybinding             | Description                                              | Notes                                                                 |
-|------------------------|----------------------------------------------------------|-----------------------------------------------------------------------|
-| <kbd>C-/</kbd>         | Undo                                                     |                                                                       |
-| <kbd>C-S-/</kbd>       | Redo                                                     |                                                                       |
-| <kbd>C-x u</kbd>       | Undo tree visualize                                      |                                                                       |
-| <kbd>C-Shift-Del</kbd> | Delete current line                                      |                                                                       |
-| <kbd>C-k</kbd>         | Delete rest of line from cursor                          |                                                                       |
-| <kbd>M-0 C-k</kbd>     | Delete from cursor to beginning of line                  |                                                                       |
-| <kbd>M-Del</kbd>       | Delete previous word                                     |                                                                       |
-| <kbd>M-d</kbd>         | Delete next word                                         |                                                                       |
-| <kbd>C-c d</kbd>       | Duplicate current line                                   |                                                                       |
-| <kbd>C-x C-t</kbd>     | Swap line with line above                                |                                                                       |
-| <kbd>M-z</kbd>         | delete up to char                                        | Keep hitting char to go to next occurrence. <kbd>C-K</kbd> to delete. |
-| <kbd>M-\\</kbd>        | delete all surrounding whitespace and tabs around cursor |                                                                       |
+| Keybinding             | Spacemacs Keybinding | Description                                              | Notes                                                                 |
+|------------------------+----------------------+----------------------------------------------------------+-----------------------------------------------------------------------|
+| <kbd>C-/</kbd>         | <kbd>u</kbd>         | Undo                                                     |                                                                       |
+| <kbd>C-S-/</kbd>       |                      | Redo                                                     |                                                                       |
+| <kbd>C-x u</kbd>       |                      | Undo tree visualize                                      |                                                                       |
+| <kbd>C-Shift-Del</kbd> |                      | Delete current line                                      |                                                                       |
+| <kbd>C-k</kbd>         |                      | Delete rest of line from cursor                          |                                                                       |
+| <kbd>M-0 C-k</kbd>     |                      | Delete from cursor to beginning of line                  |                                                                       |
+| <kbd>M-Del</kbd>       |                      | Delete previous word                                     |                                                                       |
+| <kbd>M-d</kbd>         |                      | Delete next word                                         |                                                                       |
+| <kbd>C-c d</kbd>       |                      | Duplicate current line                                   |                                                                       |
+| <kbd>C-x C-t</kbd>     |                      | Swap line with line above                                |                                                                       |
+| <kbd>M-z</kbd>         |                      | delete up to char                                        | Keep hitting char to go to next occurrence. <kbd>C-K</kbd> to delete. |
+| <kbd>M-\\</kbd>        |                      | delete all surrounding whitespace and tabs around cursor |                                                                       |
 
 ### Transposing
 
@@ -162,17 +171,17 @@ Keybindings for making changes within a buffer.
 
 ## File Management
 
-| Keybinding                    | Description                       | Notes             |
-|-------------------------------|-----------------------------------|-------------------|
-| <kbd>C-x b <name> RET</kbd>   | Create a new/open recent buffer   |                   |
-| <kbd>C-x 4 b <name> RET</kbd> | Create a new buffer in new window |                   |
-| <kbd>C-x C-f</kbd>            | Open a file                       |                   |
-| <kbd>C-x f</kbd>              | Open recent file                  |                   |
-| <kbd>C-x k RET</kbd>          | Close buffer                      |                   |
-| <kbd>C-x C-s</kbd>            | Save buffer                       |                   |
-| <kbd>C-x C-w <name> RET</kbd> | Save buffer to file               |                   |
-| <kbd>C-c D</kbd>              | Delete current buffer & file      | custom keybinding |
-| <kbd>M-x <mode-name></kbd>    | Enable mode in file               |                   |
+| Keybinding                    | Spacemacs Keybinding | Description                       | Notes             |
+|-------------------------------+----------------------+-----------------------------------+-------------------|
+| <kbd>C-x b <name> RET</kbd>   | <kbd>SPC b b</kbd>   | Create a new/open recent buffer   |                   |
+| <kbd>C-x 4 b <name> RET</kbd> |                      | Create a new buffer in new window |                   |
+| <kbd>C-x C-f</kbd>            |                      | Open a file                       |                   |
+| <kbd>C-x f</kbd>              |                      | Open recent file                  |                   |
+| <kbd>C-x k RET</kbd>          |                      | Close buffer                      |                   |
+| <kbd>C-x C-s</kbd>            | <kbd>SPC f s</kbd>   | Save buffer                       |                   |
+| <kbd>C-x C-w <name> RET</kbd> |                      | Save buffer to file               |                   |
+| <kbd>C-c D</kbd>              |                      | Delete current buffer & file      | custom keybinding |
+| <kbd>M-x <mode-name></kbd>    |                      | Enable mode in file               |                   |
 
 ## Directory Management
 
@@ -305,17 +314,17 @@ Using base keybindings for paredit. Smartparens annoyingly hijacks various emacs
 
 ### Smartparens Editing
 
-| Keybinding                    | Description                                                                     | Notes                                                                                                  |
-|-------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| <kbd>(</kbd>                  | Wrap currently selected region with parens                                      | Use with `expand-region`                                                                               |
-| <kbd>M-s</kbd>                | Remove parens immediately surrounding cursor point                              |                                                                                                        |
-| <kbd>C-(</kbd>,<kbd>C-{</kbd> | Pull in or out previous word/s-expression into current s-expression             |                                                                                                        |
-| <kbd>C-)</kbd>,<kbd>C-}</kbd> | Pull in or out next word/s-expression into current s-expression                 |                                                                                                        |
-| <kbd>M-\<up\></kbd>           | Remove all chars before cursor point inside s-expression and surrounding parens |                                                                                                        |
-| <kbd>M-\<down\></kbd>         | Remove all chars after cursor point inside s-expression and surrounding parens  |                                                                                                        |
-| <kbd>M-r</kbd>                | Remove all chars around cursor point inside s-expression and surrounding parens |                                                                                                        |
-| <kbd>M-S</kbd>                | Split current s-expression into two separate ones with cursor as split point    |                                                                                                        |
-| <kbd>C-M-t</kbd>              | When cursor is placed between s-expressions, swaps (transposes) their positions |                                                                                                        |
+| Keybinding                    | Description                                                                     | Notes                    |
+|-------------------------------+---------------------------------------------------------------------------------+--------------------------|
+| <kbd>(</kbd>                  | Wrap currently selected region with parens                                      | Use with `expand-region` |
+| <kbd>M-s</kbd>                | Remove parens immediately surrounding cursor point                              |                          |
+| <kbd>C-(</kbd>,<kbd>C-{</kbd> | Pull in or out previous word/s-expression into current s-expression             |                          |
+| <kbd>C-)</kbd>,<kbd>C-}</kbd> | Pull in or out next word/s-expression into current s-expression                 |                          |
+| <kbd>M-\<up\></kbd>           | Remove all chars before cursor point inside s-expression and surrounding parens |                          |
+| <kbd>M-\<down\></kbd>         | Remove all chars after cursor point inside s-expression and surrounding parens  |                          |
+| <kbd>M-r</kbd>                | Remove all chars around cursor point inside s-expression and surrounding parens |                          |
+| <kbd>M-S</kbd>                | Split current s-expression into two separate ones with cursor as split point    |                          |
+| <kbd>C-M-t</kbd>              | When cursor is placed between s-expressions, swaps (transposes) their positions |                          |
 
 
 ## Clojure
@@ -410,7 +419,7 @@ Using base keybindings for paredit. Smartparens annoyingly hijacks various emacs
 ### Table Editing
 
 | Keybinding               | Description                                       |
-|--------------------------|---------------------------------------------------|
+|--------------------------+---------------------------------------------------|
 | <kbd>C-c &#124;</kbd>    | Convert active region into a table                |
 | <kbd>C-c C-c             | Re-align table                                    |
 | <kbd>TAB</kbd>           | Re-align the table and move to the next field     |
