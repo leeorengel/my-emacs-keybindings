@@ -86,7 +86,6 @@ Keybindings for jumping around inside a single buffer.
 #### Jumping Around (Avy)
 
 | Keybinding    | Spacemacs Keybinding | Description                                           |
-
 |---------------|----------------------|-------------------------------------------------------|
 | <kbd>jj</kbd> | <kbd>SPC SPC</kbd>   | Jump to the beginning of a word (`avy-goto-char`)     |
 | <kbd>jk</kbd> |                      | Jump to character (`avy-goto-char-2`)                 |
@@ -521,5 +520,3 @@ Keybindings for use inside the minibuffer.
 - [Magnar Sveen](https://github.com/magnars/.emacs.d)
 - [Bozhidar Batsov's favourite keybindings](http://stackoverflow.com/a/3125243/3166303)
 - [Awesome Emacs](https://github.com/emacs-tw/awesome-emacs)
-
-* TODO
