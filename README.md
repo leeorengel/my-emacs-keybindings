@@ -175,7 +175,7 @@ Keybindings for making changes within a buffer.
 ### Searching
 
 | Keybinding                                                | Description                                        |
-|-----------------------------------------------------------+----------------------------------------------------|
+|-----------------------------------------------------------|----------------------------------------------------|
 | <kbd>&sol;</kbd> followed by a regex, then <kbd>RET</kbd> | Search within current buffer                       |
 | <kbd>?</kbd> followed by a regex, then <kbd>RET</kbd>     | Search backwards within current buffer             |
 | <kbd>n</kbd>                                              | Next occurrence in search                          |
