@@ -73,7 +73,7 @@ Keybindings for very basic cursor movement.
 Keybindings for jumping around inside a single buffer.
 
 | Keybinding       | Spacemace Keybinding | Description                            | Notes             |
-|------------------+----------------------+----------------------------------------+-------------------|
+|------------------|----------------------|----------------------------------------|-------------------|
 | <kbd>s-[</kbd>   | <kbd>s-[</kbd>       | Previous cursor position within buffer | Custom keybinding |
 | <kbd>s-]</kbd>   | <kbd>s-]</kbd>       | Next cursor position within buffer     | Custom keybinding |
 | <kbd>M-<</kbd>   | <kbd>gg</kbd>        | Go to beginning of buffer              |                   |
@@ -154,7 +154,7 @@ Keybindings for making changes within a buffer.
 ## Editing (Evil)
 
 | Keybinding    | Description                   |
-|---------------+-------------------------------|
+|---------------|-------------------------------|
 | <kbd>r</kbd>  | Replace a single character    |
 | <kbd>cc</kbd> | Change/replace entire line    |
 | <kbd>cw</kbd> | Change/replace to end of word |
@@ -163,7 +163,7 @@ Keybindings for making changes within a buffer.
 ## Visual (Evil)
 
 | Keybinding    | Description             |
-|---------------+-------------------------|
+|---------------|-------------------------|
 | <kbd>aw</kbd> | Select a word           |
 | <kbd>ab</kbd> | Select a `()` block     |
 | <kbd>aB</kbd> | Select a `{}` block     |
