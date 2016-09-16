@@ -4,8 +4,6 @@ This page assumes you are using my emacs config at http://github.com/leeorengel/
 
 This page has been organized roughly in order of importance in terms of the minimum keybindings you need to know to get going in emacs. Subsequent sections include more advanced groupings of keybindings.
 
-In terms of analogs to IntelliJ, this assumes you are on a Mac and using OS X 10.5+ Keymaps in IntelliJ.
-
 **Table of Contents**
 
 + [Navigation](#navigation)
@@ -347,6 +345,15 @@ See [https://github.com/magnars/multiple-cursors.el](https://github.com/magnars/
 | <kbd>C-c p c</kbd> | <kbd>SPC c C</kbd>   | Run compile on project                      |                  |
 | <kbd>C-c p P</kbd> |                      | Run tests on project                        |                  |
 | <kbd>C-c p t</kbd> | <kbd>SPC p a</kbd>   | Toggle between implementation and test file |                  |
+
+## Code Navigation
+
+| Spacemacs Keybinding          | Description                        |
+|-------------------------------|------------------------------------|
+| <kbd>(</kbd> and <kbd>)</kbd> | Jump to beginning/end of paragraph |
+| <kbd>{</kbd> and <kbd>}</kbd> | Jump to previous/next empty line   |
+| <kbd>&#91;&#91;[[</kbd>         | Jump to previous `{` in column 0   |
+| <kbd>]]&#93;&#93;</kbd>         | Jump to next `}` in column 0       |
 
 ## Smartparens
 
