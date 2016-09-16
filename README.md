@@ -18,6 +18,10 @@ In terms of analogs to IntelliJ, this assumes you are on a Mac and using OS X 10
   - [Expand-region](#expand-region)
   - [Advanced](#selection-advanced)
 + [Editing](#editing)
++ [Evil](#Evil)
+  - [Editing](#evil-editing)
+  - [Visual](#evil-visual-mode)
+  - [Searching](#evil-searching)
 + [Searching/Replacing](#searchingreplacing)
 + [File Management](#file-management)
 + [Directory Management](#directory-management)
@@ -28,6 +32,7 @@ In terms of analogs to IntelliJ, this assumes you are on a Mac and using OS X 10
 + [File Navigation (NeoTree)](#file-navigation-neotree)
 + [Multiple Cursors](#multiple-cursors)
 + [Coding](#coding)
++ [Commenting](#commenting)
 + [Smartparens](#smartparens)
   - [Navigation](#smartparens-navigation)
   - [Editing](#smartparens-editing)
@@ -153,7 +158,7 @@ Keybindings for making changes within a buffer.
 
 ## Evil
 
-### Editing
+### Evil Editing
 
 | Keybinding    | Description                   |
 |---------------|-------------------------------|
@@ -162,7 +167,7 @@ Keybindings for making changes within a buffer.
 | <kbd>cw</kbd> | Change/replace to end of word |
 | <kbd>c$</kbd> | Change/replace to end of line |
 
-### Visual Mode
+### Evil Visual Mode
 
 | Keybinding    | Description             |
 |---------------|-------------------------|
@@ -172,7 +177,7 @@ Keybindings for making changes within a buffer.
 | <kbd>ib</kbd> | Select inner `()` block |
 | <kbd>iB</kbd> | Select inner `{}` block |
 
-### Searching
+### Evil Searching
 
 | Keybinding                                                | Description                                        |
 |-----------------------------------------------------------|----------------------------------------------------|
