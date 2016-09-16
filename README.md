@@ -30,6 +30,7 @@ This page has been organized roughly in order of importance in terms of the mini
 + [File Navigation (NeoTree)](#file-navigation-neotree)
 + [Multiple Cursors](#multiple-cursors)
 + [Coding](#coding)
++ [Coding Navigation](#coding-navigation)
 + [Commenting](#commenting)
 + [Smartparens](#smartparens)
   - [Navigation](#smartparens-navigation)
