@@ -73,9 +73,9 @@ Keybindings for very basic cursor movement.
 Keybindings for jumping around inside a single buffer.
 
 | Keybinding       | Spacemace Keybinding | Description                            | Notes             |
-|------------------|----------------------|----------------------------------------|-------------------|
-| <kbd>C-[</kbd>   | <kbd>s-[</kbd>       | Previous cursor position within buffer | Custom keybinding |
-| <kbd>C-]</kbd>   | <kbd>s-]</kbd>       | Next cursor position within buffer     | Custom keybinding |
+|------------------+----------------------+----------------------------------------+-------------------|
+| <kbd>s-[</kbd>   | <kbd>s-[</kbd>       | Previous cursor position within buffer | Custom keybinding |
+| <kbd>s-]</kbd>   | <kbd>s-]</kbd>       | Next cursor position within buffer     | Custom keybinding |
 | <kbd>M-<</kbd>   | <kbd>gg</kbd>        | Go to beginning of buffer              |                   |
 | <kbd>M-></kbd>   | <kbd>G</kbd>         | Go to end of buffer                    |                   |
 | <kbd>M-g g</kbd> | <kbd>:X</kbd>        | Go to line number X                    |                   |
@@ -149,16 +149,26 @@ Keybindings for making changes within a buffer.
 | <kbd>C-c d</kbd>       | <kbd>yyp</kbd>       | Duplicate current line                                   |                                                                       |
 | <kbd>C-x C-t</kbd>     | <kbd>SPC x t l</kbd> | Swap line with line above                                |                                                                       |
 | <kbd>M-z</kbd>         | <kbd>df</kbd>        | delete up to char                                        | Keep hitting char to go to next occurrence. <kbd>C-K</kbd> to delete. |
-| <kbd>M-\\</kbd>        | <kbd></kbd>          | delete all surrounding whitespace and tabs around cursor |                                                                       |
+| <kbd>M-\\</kbd>        |                      | delete all surrounding whitespace and tabs around cursor |                                                                       |
 
 ## Editing (Evil)
 
-| Keybinding  | Description |
-|-------------|-------------|
-| <kbd></kbd> |             |
-| <kbd></kbd> |             |
+| Keybinding    | Description                   |
+|---------------+-------------------------------|
+| <kbd>r</kbd>  | Replace a single character    |
+| <kbd>cc</kbd> | Change/replace entire line    |
+| <kbd>cw</kbd> | Change/replace to end of word |
+| <kbd>c$</kbd> | Change/replace to end of line |
 
+## Visual (Evil)
 
+| Keybinding    | Description             |
+|---------------+-------------------------|
+| <kbd>aw</kbd> | Select a word           |
+| <kbd>ab</kbd> | Select a `()` block     |
+| <kbd>aB</kbd> | Select a `{}` block     |
+| <kbd>ib</kbd> | Select inner `()` block |
+| <kbd>iB</kbd> | Select inner `{}` block |
 
 ### Transposing
 
