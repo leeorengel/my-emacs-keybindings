@@ -151,7 +151,9 @@ Keybindings for making changes within a buffer.
 | <kbd>M-z</kbd>         | <kbd>df</kbd>        | delete up to char                                        | Keep hitting char to go to next occurrence. <kbd>C-K</kbd> to delete. |
 | <kbd>M-\\</kbd>        |                      | delete all surrounding whitespace and tabs around cursor |                                                                       |
 
-## Editing (Evil)
+## Evil
+
+### Editing
 
 | Keybinding    | Description                   |
 |---------------|-------------------------------|
@@ -160,7 +162,7 @@ Keybindings for making changes within a buffer.
 | <kbd>cw</kbd> | Change/replace to end of word |
 | <kbd>c$</kbd> | Change/replace to end of line |
 
-## Visual (Evil)
+### Visual Mode
 
 | Keybinding    | Description             |
 |---------------|-------------------------|
@@ -169,6 +171,18 @@ Keybindings for making changes within a buffer.
 | <kbd>aB</kbd> | Select a `{}` block     |
 | <kbd>ib</kbd> | Select inner `()` block |
 | <kbd>iB</kbd> | Select inner `{}` block |
+
+### Searching
+
+| Keybinding                                                | Description                                        |
+|-----------------------------------------------------------+----------------------------------------------------|
+| <kbd>&sol;</kbd> followed by a regex, then <kbd>RET</kbd> | Search within current buffer                       |
+| <kbd>?</kbd> followed by a regex, then <kbd>RET</kbd>     | Search backwards within current buffer             |
+| <kbd>n</kbd>                                              | Next occurrence in search                          |
+| <kbd>N</kbd>                                              | Previous occurrence in search                      |
+| <kbd>:%s/old/new/g</kbd>                                  | Search/replace `old` with `new` globally in buffer |
+| <kbd>*</kbd>                                              | Search for next occurrence of word at cursor       |
+| <kbd>#</kbd>                                              | Search for previous occurrence of word at cursor   |
 
 ### Transposing
 
