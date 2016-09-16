@@ -30,7 +30,7 @@ This page has been organized roughly in order of importance in terms of the mini
 + [File Navigation (NeoTree)](#file-navigation-neotree)
 + [Multiple Cursors](#multiple-cursors)
 + [Coding](#coding)
-+ [Coding Navigation](#coding-navigation)
++ [Coding Navigation](#code-navigation)
 + [Commenting](#commenting)
 + [Smartparens](#smartparens)
   - [Navigation](#smartparens-navigation)
@@ -353,8 +353,8 @@ See [https://github.com/magnars/multiple-cursors.el](https://github.com/magnars/
 |-------------------------------|------------------------------------|
 | <kbd>(</kbd> and <kbd>)</kbd> | Jump to beginning/end of paragraph |
 | <kbd>{</kbd> and <kbd>}</kbd> | Jump to previous/next empty line   |
-| <kbd>&#91;&#91;[[</kbd>         | Jump to previous `{` in column 0   |
-| <kbd>]]&#93;&#93;</kbd>         | Jump to next `}` in column 0       |
+| <kbd>&#91;&#91;</kbd>         | Jump to previous `}` in column 0   |
+| <kbd>&#93;&#93;</kbd>         | Jump to next `}` in column 0       |
 
 ## Smartparens
 
