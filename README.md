@@ -91,8 +91,8 @@ Keybindings for jumping around inside a single buffer.
 
 | Keybinding    | Spacemacs Keybinding | Description                                           |
 |---------------|----------------------|-------------------------------------------------------|
-| <kbd>jj</kbd> | <kbd>SPC SPC</kbd>   | Jump to the beginning of a word (`avy-goto-char`)     |
-| <kbd>jk</kbd> |                      | Jump to character (`avy-goto-char-2`)                 |
+| <kbd>jj</kbd> | <kbd>SPC SPC</kbd>   | Jump to char                                          |
+| <kbd>jk</kbd> |                      | Jump to consecutive chars                             |
 | <kbd>jl</kbd> | <kbd>SPC y</kbd>     | Jump to the beginning of a line (`avy-goto-word-1`)   |
 | <kbd>xx</kbd> | <kbd>SPC :</kbd>     | Executed extended command(`execute-extended-command`) |
 
@@ -300,23 +300,25 @@ Project navigation. An alternate prefix is Command-P.
 
 ## File Navigation (NeoTree)
 
-| Keybinding         | Spacemacs Keybinding | Description                                        | Notes                    |
-|--------------------|----------------------|----------------------------------------------------|--------------------------|
-| <kbd>\<f8\></kbd>  | <kbd>SPC f t</kbd>   | Toggle project explorer                            |                          |
-| <kbd>RET</kbd>     | <kbd>RET</kbd>       | Open file in main window                           | (when in neotree buffer) |
-|                    | <kbd># RET</kbd>     | Open file in window #                              | (when in neotree buffer) |
-| <kbd>&#124;</kbd>  | <kbd>&#124;</kbd>    | Open file in vertical split                        | (when in neotree buffer) |
-| <kbd>-</kbd>       | <kbd>-</kbd>         | Open file in horizontal split                      | (when in neotree buffer) |
-| <kbd>C-c C-n</kbd> |                      | Create a new file or dir if filename ends with '/' | (when in neotree buffer) |
-| <kbd>C-c C-d</kbd> |                      | Delete a file or a directory                       | (when in neotree buffer) |
-| <kbd>C-c C-r</kbd> |                      | Rename a file or a directory                       | (when in neotree buffer) |
-| <kbd>g</kbd>       |                      | Refresh project explorer                           | (when in neotree buffer) |
-| <kbd>U</kbd>       |                      | Go up one node in tree                             | (when in neotree buffer) |
-| <kbd>D</kbd>       |                      | Go down one node in tree                           | (when in neotree buffer) |
-| <kbd>A</kbd>       |                      | Toggle widening explorer window                    | (when in neotree buffer) |
-| <kbd>S</kbd>       | <kbd>H</kbd>         | Go to previous sibling node in tree                | (when in neotree buffer) |
-| <kbd>s</kbd>       | <kbd>L</kbd>         | Go to next sibling node in tree                    | (when in neotree buffer) |
-| <kbd>H</kbd>       |                      | Toggle showing hidden files                        | (when in neotree buffer) |
+| Keybinding         | Spacemacs Keybinding | Description                                        |
+|--------------------|----------------------|----------------------------------------------------|
+| <kbd>\<f8\></kbd>  | <kbd>SPC f t</kbd>   | Toggle project explorer                            |
+| <kbd>RET</kbd>     | <kbd>RET</kbd>       | Open file in main window                           |
+|                    | <kbd># RET</kbd>     | Open file in window #                              |
+| <kbd>&#124;</kbd>  | <kbd>&#124;</kbd>    | Open file in vertical split                        |
+| <kbd>-</kbd>       | <kbd>-</kbd>         | Open file in horizontal split                      |
+| <kbd>C-c C-n</kbd> | <kbd>c</kbd>         | Create a new file or dir if filename ends with '/' |
+| <kbd>C-c C-d</kbd> | <kbd>d</kbd>         | Delete a file or a directory                       |
+| <kbd>C-c C-r</kbd> | <kbd>r</kbd>         | Rename a file or a directory                       |
+| <kbd>g</kbd>       | <kbd>gr</kbd>        | Refresh project explorer                           |
+| <kbd>U</kbd>       | <kbd>k</kbd>         | Go up one node in tree                             |
+| <kbd>D</kbd>       | <kbd>j</kbd>         | Go down one node in tree                           |
+|                    | <kbd>H</kbd>         | Previous sibling                                   |
+|                    | <kbd>L</kbd>         | Next sibling                                       |
+| <kbd>A</kbd>       | <kbd>TAB</kbd>       | Toggle widening explorer window                    |
+| <kbd>S</kbd>       | <kbd>H</kbd>         | Go to previous sibling node in tree                |
+| <kbd>s</kbd>       | <kbd>L</kbd>         | Go to next sibling node in tree                    |
+| <kbd>H</kbd>       | <kbd>s</kbd>         | Toggle showing hidden files                        |
 
 ## Multiple Cursors
 
