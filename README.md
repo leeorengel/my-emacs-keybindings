@@ -311,8 +311,8 @@ Project navigation. An alternate prefix is Command-P.
 | <kbd>C-c C-d</kbd> | <kbd>d</kbd>         | Delete a file or a directory                       |
 | <kbd>C-c C-r</kbd> | <kbd>r</kbd>         | Rename a file or a directory                       |
 | <kbd>g</kbd>       | <kbd>gr</kbd>        | Refresh project explorer                           |
-| <kbd>U</kbd>       | <kbd>k</kbd>         | Go up one node in tree                             |
-| <kbd>D</kbd>       | <kbd>j</kbd>         | Go down one node in tree                           |
+| <kbd>U</kbd>       | <kbd>U</kbd>         | Go up one node in tree                             |
+| <kbd>D</kbd>       | <kbd>D</kbd>         | Go down one node in tree                           |
 |                    | <kbd>H</kbd>         | Previous sibling                                   |
 |                    | <kbd>L</kbd>         | Next sibling                                       |
 | <kbd>A</kbd>       | <kbd>TAB</kbd>       | Toggle widening explorer window                    |
