@@ -67,20 +67,25 @@ This page has been organized roughly in order of importance in terms of the mini
 
 Keybindings for very basic cursor movement.
 
-| Keybinding       | Spacemacs Keybinding | Description                            | Notes                                                                                                                  |
-|------------------|----------------------|----------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| <kbd>C-p</kbd>   | <kbd>k</kbd>         | move cursor to previous line           |                                                                                                                        |
-| <kbd>C-b</kbd>   | <kbd>h</kbd>         | move cursor backward  one character    |                                                                                                                        |
-| <kbd>C-f</kbd>   | <kbd>l</kbd>         | move cursor forward one character      |                                                                                                                        |
-| <kbd>C-n</kbd>   | <kbd>j</kbd>         | move cursor to next line               |                                                                                                                        |
-| <kbd>C-S-p</kbd> | <kbd>5k</kbd>        | move cursor up 5 lines (e.g. faster)   | Custom keybinding courtesy of [magnars](https://github.com/magnars/.emacs.d/blob/master/settings/key-bindings.el#L216) |
-| <kbd>C-S-n</kbd> | <kbd>C-e</kbd>       | move cursor down 5 lines (e.g. faster) | Custom keybinding courtesy of [magnars](https://github.com/magnars/.emacs.d/blob/master/settings/key-bindings.el#L216) |
-| <kbd>M-b</kbd>   | <kbd>b</kbd>         | move cursor to previous word           |                                                                                                                        |
-| <kbd>M-f</kbd>   | <kbd>w</kbd>         | move cursor to next word               |                                                                                                                        |
-| <kbd>C-M-b</kbd> | <kbd>(</kbd>         | move cursor to previous  s-expression  |                                                                                                                        |
-| <kbd>C-M-f</kbd> | <kbd>)</kbd>         | move cursor to next s-expression       |                                                                                                                        |
-| <kbd>C-a</kbd>   | <kbd>0</kbd>         | Go to beginning of line                |                                                                                                                        |
-| <kbd>C-e</kbd>   | <kbd>$</kbd>         | Go to end of line                      |                                                                                                                        |
+| Keybinding       | Spacemacs Keybinding | Description                                   | Notes                                                                                                                  |
+|------------------|----------------------|-----------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| <kbd>C-p</kbd>   | <kbd>k</kbd>         | move cursor to previous line                  |                                                                                                                        |
+| <kbd>C-b</kbd>   | <kbd>h</kbd>         | move cursor backward  one character           |                                                                                                                        |
+| <kbd>C-f</kbd>   | <kbd>l</kbd>         | move cursor forward one character             |                                                                                                                        |
+| <kbd>C-n</kbd>   | <kbd>j</kbd>         | move cursor to next line                      |                                                                                                                        |
+| <kbd>C-S-p</kbd> | <kbd>5k</kbd>        | move cursor up 5 lines (e.g. faster)          | Custom keybinding courtesy of [magnars](https://github.com/magnars/.emacs.d/blob/master/settings/key-bindings.el#L216) |
+| <kbd>C-S-n</kbd> | <kbd>C-e</kbd>       | move cursor down 5 lines (e.g. faster)        | Custom keybinding courtesy of [magnars](https://github.com/magnars/.emacs.d/blob/master/settings/key-bindings.el#L216) |
+| <kbd>M-b</kbd>   | <kbd>b</kbd>         | move cursor to previous word                  |                                                                                                                        |
+| <kbd>M-f</kbd>   | <kbd>w</kbd>         | move cursor to next word                      |                                                                                                                        |
+| <kbd>C-M-b</kbd> | <kbd>(</kbd>         | move cursor to previous  s-expression         |                                                                                                                        |
+| <kbd>C-M-f</kbd> | <kbd>)</kbd>         | move cursor to next s-expression              |                                                                                                                        |
+| <kbd>C-a</kbd>   | <kbd>0</kbd>         | Go to beginning of line                       |                                                                                                                        |
+| <kbd>C-e</kbd>   | <kbd>$</kbd>         | Go to end of line                             |                                                                                                                        |
+|                  | <kbd>f\<char\></kbd> | Go to next occurrence of char on line         |                                                                                                                        |
+|                  | <kbd>F\<char\></kbd> | Go to previous occurrence of char on line     |                                                                                                                        |
+|                  | <kbd>t\<char\></kbd> | Go to next occurrence before char on line     |                                                                                                                        |
+|                  | <kbd>T\<char\></kbd> | Go to previous occurrence before char on line |                                                                                                                        |
+
 
 #### Jumping Around
 
@@ -169,14 +174,14 @@ Keybindings for making changes within a buffer.
 
 ### Evil Editing
 
-| Keybinding            | Description                                                        |
-|-----------------------|--------------------------------------------------------------------|
-| <kbd>r</kbd>          | Replace a single character                                         |
-| <kbd>cc</kbd>         | Change/replace entire line                                         |
-| <kbd>cf\<char\></kbd> | Change/replace to first occurrence of `char` from current position |
-| <kbd>ct\<char\></kbd> | Change/replace up to first occurrence `char` from current position |
-| <kbd>cw</kbd>         | Change/replace to end of word                                      |
-| <kbd>c$</kbd>         | Change/replace to end of line                                      |
+| Keybinding            | Description                                                                        |
+|-----------------------|------------------------------------------------------------------------------------|
+| <kbd>r</kbd>          | Replace a single character                                                         |
+| <kbd>cc</kbd>         | Change/replace entire line                                                         |
+| <kbd>cf\<char\></kbd> | Change/replace to first occurrence of `char` from current position on current line |
+| <kbd>ct\<char\></kbd> | Change/replace up to first occurrence `char` from current position                 |
+| <kbd>cw</kbd>         | Change/replace to end of word                                                      |
+| <kbd>c$</kbd>         | Change/replace to end of line                                                      |
 
 ### Evil Visual Mode
 
