@@ -6,6 +6,7 @@ This page has been organized roughly in order of importance in terms of the mini
 
 **Table of Contents**
 
++ [Basic](#basic)
 + [Navigation](#navigation)
   - [Within buffer](#within-buffer)
     - [Basic Motion](#basic-motion)
@@ -48,6 +49,15 @@ This page has been organized roughly in order of importance in terms of the mini
 + [Help](#help)
 + [Miscellaneous](#miscellaneous)
 + [Credits](#credits)
+
+## Basic
+
+| Keybinding         | Spacemacs Keybinding | Description       |
+|--------------------|----------------------|-------------------|
+| <kbd>C-x C-x</kbd> | <kbd>M-q</kbd>       | Quit              |
+| <kbd>C-x C-s</kbd> | <kbd>M-s</kbd>       | Save              |
+|                    | <kbd>SPC f e R</kbd> | Reload config     |
+|                    | <kbd>SPC f e d</kbd> | Open `.spacemacs` |
 
 ## Navigation
 
@@ -159,12 +169,14 @@ Keybindings for making changes within a buffer.
 
 ### Evil Editing
 
-| Keybinding    | Description                   |
-|---------------|-------------------------------|
-| <kbd>r</kbd>  | Replace a single character    |
-| <kbd>cc</kbd> | Change/replace entire line    |
-| <kbd>cw</kbd> | Change/replace to end of word |
-| <kbd>c$</kbd> | Change/replace to end of line |
+| Keybinding            | Description                                                        |
+|-----------------------|--------------------------------------------------------------------|
+| <kbd>r</kbd>          | Replace a single character                                         |
+| <kbd>cc</kbd>         | Change/replace entire line                                         |
+| <kbd>cf\<char\></kbd> | Change/replace to first occurrence of `char` from current position |
+| <kbd>ct\<char\></kbd> | Change/replace up to first occurrence `char` from current position |
+| <kbd>cw</kbd>         | Change/replace to end of word                                      |
+| <kbd>c$</kbd>         | Change/replace to end of line                                      |
 
 ### Evil Visual Mode
 
@@ -218,6 +230,7 @@ Keybindings for making changes within a buffer.
 | <kbd>C-x C-f</kbd>            | <kbd>SPC f f</kbd>           | Open a file                       |                   |
 | <kbd>C-x f</kbd>              | <kbd>SPC f r</kbd>           | Open recent file                  |                   |
 | <kbd>C-x k RET</kbd>          | <kbd>SPC b d</kbd>           | Close buffer                      |                   |
+|                               | <kbd>SPC b R</kbd>           | Reload buffer                     |                   |
 | <kbd>C-x C-s</kbd>            | <kbd>SPC f s</kbd>           | Save buffer                       |                   |
 | <kbd>C-x C-w <name> RET</kbd> | <kbd>SPC f s</kbd>           | Save buffer to file               |                   |
 | <kbd>C-c D</kbd>              | <kbd>SPC f D</kbd>           | Delete current buffer & file      | custom keybinding |
